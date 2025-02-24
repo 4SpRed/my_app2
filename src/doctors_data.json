@@ -1,0 +1,3712 @@
+[
+    {
+        "Wilaya": "M\u00e9decins",
+        "Nom": "exer\u00e7ant",
+        "Pr\u00e9nom": "en",
+        "Adresse": "",
+        "Contact": "Alg\u00e9rie"
+    },
+    {
+        "Wilaya": "Wilaya",
+        "Nom": "Nom",
+        "Pr\u00e9nom": "Pr\u00e9nom",
+        "Adresse": "H\u00f4pital ou adresse du cabinet N\u00b0 t\u00e9l\u00e9phone /",
+        "Contact": "email"
+    },
+    {
+        "Wilaya": "Adrar",
+        "Nom": "BELAL",
+        "Pr\u00e9nom": "Abdelkader",
+        "Adresse": "Route tililan",
+        "Contact": "adrar"
+    },
+    {
+        "Wilaya": "BENMAOUHOUB",
+        "Nom": "Abdelkader",
+        "Pr\u00e9nom": "61",
+        "Adresse": "rue des martyrs, Chlef",
+        "Contact": "027772802"
+    },
+    {
+        "Wilaya": "DJEBAILI",
+        "Nom": "Mustapha",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "des",
+        "Contact": "Fonctionnaires"
+    },
+    {
+        "Wilaya": "GHERBOUDJ",
+        "Nom": "Nizar",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "",
+        "Contact": "Sobha"
+    },
+    {
+        "Wilaya": "HABBAL",
+        "Nom": "Bakhta",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "Si Allal",
+        "Contact": "Chlef"
+    },
+    {
+        "Wilaya": "EPH",
+        "Nom": "Zighoud",
+        "Pr\u00e9nom": "Youcef",
+        "Adresse": "",
+        "Contact": "T\u00e9n\u00e8s."
+    },
+    {
+        "Wilaya": "KADDOUR",
+        "Nom": "DJEBBAR",
+        "Pr\u00e9nom": "Amine",
+        "Adresse": "CITE CHERIFI KADDOUR, Chlef",
+        "Contact": "0541001675"
+    },
+    {
+        "Wilaya": "MONTAGNIE",
+        "Nom": "En",
+        "Pr\u00e9nom": "face",
+        "Adresse": "de la wilaya, Chlef",
+        "Contact": "027797744"
+    },
+    {
+        "Wilaya": "ADDA",
+        "Nom": "Mohammed",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Aflou",
+        "Contact": "0662845451"
+    },
+    {
+        "Wilaya": "Laghouat",
+        "Nom": "AOUIFFAT",
+        "Pr\u00e9nom": "Mohammed",
+        "Adresse": "Aflou. W Laghouat",
+        "Contact": "0555224770"
+    },
+    {
+        "Wilaya": "NAZEF",
+        "Nom": "Nassim",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Rl Wiam Laghouat",
+        "Contact": "0776190176"
+    },
+    {
+        "Wilaya": "AISSOUS",
+        "Nom": "Oualid",
+        "Pr\u00e9nom": "Ain",
+        "Adresse": "Mlila",
+        "Contact": "0560308843"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "des",
+        "Pr\u00e9nom": "vieux",
+        "Adresse": "combatants,",
+        "Contact": "Ain"
+    },
+    {
+        "Wilaya": "BERGUELLAH",
+        "Nom": "Besma",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Mohamed",
+        "Contact": "Boudiaf"
+    },
+    {
+        "Wilaya": "Oum",
+        "Nom": "El",
+        "Pr\u00e9nom": "Bouaghi",
+        "Adresse": "GHRIEB TABET Houssem Eddine Cit\u00e9 Arbi Ben MHIDI, A\u00efn M'Lila",
+        "Contact": "0676762736"
+    },
+    {
+        "Wilaya": "HAMDI",
+        "Nom": "Lamia",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Mohamed",
+        "Contact": "Boudiaf"
+    },
+    {
+        "Wilaya": "LOUAR",
+        "Nom": "Nahla",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Oum El",
+        "Contact": "Bouaghi"
+    },
+    {
+        "Wilaya": "MAAOUI",
+        "Nom": "Oum",
+        "Pr\u00e9nom": "El",
+        "Adresse": "Bouaghi",
+        "Contact": "032556204"
+    },
+    {
+        "Wilaya": "SAHBI",
+        "Nom": "Nadia",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Sonatiba, Oum El",
+        "Contact": "Bouaghi"
+    },
+    {
+        "Wilaya": "ABABSA",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Kamel",
+        "Adresse": "36 rue de l\u2019ind\u00e9pendance,",
+        "Contact": "Batna"
+    },
+    {
+        "Wilaya": "Clinique",
+        "Nom": "les",
+        "Pr\u00e9nom": "Rosiers,",
+        "Adresse": "lotissement",
+        "Contact": "033250106"
+    },
+    {
+        "Wilaya": "Kemouni",
+        "Nom": "N\u00b059,",
+        "Pr\u00e9nom": "Batna",
+        "Adresse": "",
+        "Contact": "0799304397"
+    },
+    {
+        "Wilaya": "17",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Hamida",
+        "Adresse": "",
+        "Contact": "Ben"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "des",
+        "Pr\u00e9nom": "46",
+        "Adresse": "",
+        "Contact": "logements,"
+    },
+    {
+        "Wilaya": "HASSINET",
+        "Nom": "Hadj",
+        "Pr\u00e9nom": "Riadh",
+        "Adresse": "Batiment A, N\u00b02, Cit\u00e9",
+        "Contact": "Chikhi"
+    },
+    {
+        "Wilaya": "MERZOUKI",
+        "Nom": "Wissem",
+        "Pr\u00e9nom": "En",
+        "Adresse": "face CHU Batna",
+        "Contact": "0666309336"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Titouah",
+        "Pr\u00e9nom": "Salem,",
+        "Adresse": "",
+        "Contact": "Tazmalt,"
+    },
+    {
+        "Wilaya": "AHMED",
+        "Nom": "ALI",
+        "Pr\u00e9nom": "Soraya",
+        "Adresse": "",
+        "Contact": "0556411528"
+    },
+    {
+        "Wilaya": "R\u00e9sidence",
+        "Nom": "la",
+        "Pr\u00e9nom": "grande",
+        "Adresse": "baie",
+        "Contact": "cit\u00e9"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "CNEP",
+        "Pr\u00e9nom": "18",
+        "Adresse": "logts quartier",
+        "Contact": "docteur.arounfarid@gmail.com"
+    },
+    {
+        "Wilaya": "seghir",
+        "Nom": "B01",
+        "Pr\u00e9nom": "N01.",
+        "Adresse": "Bejaia",
+        "Contact": "0542402876"
+    },
+    {
+        "Wilaya": "BELAID",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Lotissement",
+        "Adresse": "130-131, El Kseur",
+        "Contact": "034254040"
+    },
+    {
+        "Wilaya": "BELKEBLA",
+        "Nom": "Radia",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Sidi",
+        "Contact": "Aich"
+    },
+    {
+        "Wilaya": "BELLOUL",
+        "Nom": "Myriem",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "KHLIL",
+        "Contact": "AMRANE"
+    },
+    {
+        "Wilaya": "600",
+        "Nom": "logts",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "B10",
+        "Contact": "n\u00b0362"
+    },
+    {
+        "Wilaya": "Avenue",
+        "Nom": "1er",
+        "Pr\u00e9nom": "novembre",
+        "Adresse": "Sidi Aich",
+        "Contact": "0773140422"
+    },
+    {
+        "Wilaya": "centre",
+        "Nom": "06005",
+        "Pr\u00e9nom": "B\u00e9ja\u00efa",
+        "Adresse": "",
+        "Contact": "0540511384"
+    },
+    {
+        "Wilaya": "BOUSSOUIRA",
+        "Nom": "Yamina",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Remla, Bejaia",
+        "Contact": "0561870432"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "18",
+        "Pr\u00e9nom": "logements",
+        "Adresse": "Bt A N04",
+        "Contact": "0664676881"
+    },
+    {
+        "Wilaya": "Clinique",
+        "Nom": "priv\u00e9e",
+        "Pr\u00e9nom": "rameau",
+        "Adresse": "d'olivier",
+        "Contact": "0771921553"
+    },
+    {
+        "Wilaya": "MERAD",
+        "Nom": "Noria",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Somacob BT D n\u00b01, Bejaia",
+        "Contact": "034215538"
+    },
+    {
+        "Wilaya": "Mohamed",
+        "Nom": "Villa",
+        "Pr\u00e9nom": "n\u00b0299",
+        "Adresse": "quartier",
+        "Contact": "Sonatrach"
+    },
+    {
+        "Wilaya": "Ameziane",
+        "Nom": "RN",
+        "Pr\u00e9nom": "n\u00b026,",
+        "Adresse": "",
+        "Contact": "Akbou"
+    },
+    {
+        "Wilaya": "SAHNOUN",
+        "Nom": "Khireddine",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "des 90 logts Bt B N\u00b08,",
+        "Contact": "Akbou"
+    },
+    {
+        "Wilaya": "TIGHILT",
+        "Nom": "EPH",
+        "Pr\u00e9nom": "Sidi",
+        "Adresse": "Aich. B\u00e9ja\u00efa",
+        "Contact": "0553294093"
+    },
+    {
+        "Wilaya": "BOUADJADJA",
+        "Nom": "Fay\u00e7al",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "El Menchi.",
+        "Contact": "Biskra"
+    },
+    {
+        "Wilaya": "SABAA",
+        "Nom": "Salah",
+        "Pr\u00e9nom": "N\u00b019",
+        "Adresse": "Bab Edarb, Biskra",
+        "Contact": "033528260"
+    },
+    {
+        "Wilaya": "BENGHERNAOUT",
+        "Nom": "Mazouz",
+        "Pr\u00e9nom": "H\u00f4pital",
+        "Adresse": "militaire de",
+        "Contact": "B\u00e9char"
+    },
+    {
+        "Wilaya": "Centre-ville,",
+        "Nom": "immeuble",
+        "Pr\u00e9nom": "des",
+        "Adresse": "",
+        "Contact": "0673913603"
+    },
+    {
+        "Wilaya": "m\u00e9decins",
+        "Nom": "Bouhlel",
+        "Pr\u00e9nom": "B\u00e9char",
+        "Adresse": "",
+        "Contact": "ouanissa@yahoo.fr"
+    },
+    {
+        "Wilaya": "MOKEDDEM",
+        "Nom": "Oussama",
+        "Pr\u00e9nom": "Clinique",
+        "Adresse": "Dar Al Hakim, Bechar",
+        "Contact": "dr.mokeddem.oussama@gmail."
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "KOURIFA",
+        "Pr\u00e9nom": "Rabah,",
+        "Adresse": "",
+        "Contact": "Meftah,"
+    },
+    {
+        "Wilaya": "BAKIR",
+        "Nom": "Sabah",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "emir abdelkader larbaa",
+        "Contact": "blida"
+    },
+    {
+        "Wilaya": "6",
+        "Nom": "avenue",
+        "Pr\u00e9nom": "Kritli",
+        "Adresse": "Mokhtar 1er",
+        "Contact": "\u00e9tage"
+    },
+    {
+        "Wilaya": "appt",
+        "Nom": "N\u00b002,",
+        "Pr\u00e9nom": "Bab",
+        "Adresse": "Dzair,",
+        "Contact": "Blida"
+    },
+    {
+        "Wilaya": "EPH",
+        "Nom": "Ibrahim",
+        "Pr\u00e9nom": "Trichine",
+        "Adresse": "",
+        "Contact": "(fabourg)"
+    },
+    {
+        "Wilaya": "BENAZOUZ",
+        "Nom": "Ahmed",
+        "Pr\u00e9nom": "Chawki",
+        "Adresse": "Bd yousfi Abdelkader",
+        "Contact": "025321670"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "150",
+        "Pr\u00e9nom": "logts",
+        "Adresse": "Bt S n\u00b0",
+        "Contact": "01,"
+    },
+    {
+        "Wilaya": "cit\u00e9",
+        "Nom": "488",
+        "Pr\u00e9nom": "logements,",
+        "Adresse": "bat",
+        "Contact": "29,"
+    },
+    {
+        "Wilaya": "BOUKELTOUM",
+        "Nom": "Meriem",
+        "Pr\u00e9nom": "appart",
+        "Adresse": "num 03",
+        "Contact": "Ouled-yaich,"
+    },
+    {
+        "Wilaya": "BOUMAHDI",
+        "Nom": "Sami",
+        "Pr\u00e9nom": "26",
+        "Adresse": "Bd Larbi Tebessi",
+        "Contact": "0771910068"
+    },
+    {
+        "Wilaya": "BOUMBAREK",
+        "Nom": "Noureddine",
+        "Pr\u00e9nom": "Route",
+        "Adresse": "Sidi Moussa,",
+        "Contact": "Blida"
+    },
+    {
+        "Wilaya": "BOUMECHIDA",
+        "Nom": "Abderrezak",
+        "Pr\u00e9nom": "3",
+        "Adresse": "Rue chemin marabou",
+        "Contact": "025391373"
+    },
+    {
+        "Wilaya": "Place",
+        "Nom": "du",
+        "Pr\u00e9nom": "chahid",
+        "Adresse": "Kacem Bachir",
+        "Contact": "0557403958"
+    },
+    {
+        "Wilaya": "Boulevard",
+        "Nom": "Mohammed",
+        "Pr\u00e9nom": "Boudiaf,",
+        "Adresse": "",
+        "Contact": "025215545"
+    },
+    {
+        "Wilaya": "cit\u00e9",
+        "Nom": "60",
+        "Pr\u00e9nom": "logements,",
+        "Adresse": "BLIDA",
+        "Contact": "0672435206"
+    },
+    {
+        "Wilaya": "LAMOURI",
+        "Nom": "Abdenacer",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "saadi n\u00b0 4",
+        "Contact": "025401593"
+    },
+    {
+        "Wilaya": "108",
+        "Nom": "W,",
+        "Pr\u00e9nom": "en",
+        "Adresse": "face du CHU Frantz",
+        "Contact": "0660092730"
+    },
+    {
+        "Wilaya": "28",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Emir",
+        "Adresse": "",
+        "Contact": "Abdelkader."
+    },
+    {
+        "Wilaya": "Boufarik",
+        "Nom": "(\u00e0",
+        "Pr\u00e9nom": "c\u00f4t\u00e9",
+        "Adresse": "de",
+        "Contact": "l'hopital)."
+    },
+    {
+        "Wilaya": "MAIDAT",
+        "Nom": "Yassine",
+        "Pr\u00e9nom": "37",
+        "Adresse": "Bd. Kritli mokhtar,",
+        "Contact": "Boufarik"
+    },
+    {
+        "Wilaya": "Route",
+        "Nom": "de",
+        "Pr\u00e9nom": "Larbaa,",
+        "Adresse": "Cit\u00e9 des",
+        "Contact": "138"
+    },
+    {
+        "Wilaya": "lots",
+        "Nom": "villa",
+        "Pr\u00e9nom": "N\u00b0",
+        "Adresse": "94, 1\u00e8re \u00e9tage N\u00b0",
+        "Contact": "1"
+    },
+    {
+        "Wilaya": "10",
+        "Nom": "rue",
+        "Pr\u00e9nom": "cherchali",
+        "Adresse": "",
+        "Contact": "Boualem,"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "40",
+        "Pr\u00e9nom": "logements,",
+        "Adresse": "",
+        "Contact": "Mouzaia."
+    },
+    {
+        "Wilaya": "OULAMARA",
+        "Nom": "HAMMAR",
+        "Pr\u00e9nom": "Nouara",
+        "Adresse": "Boufarik, Blida",
+        "Contact": "0773541578"
+    },
+    {
+        "Wilaya": "53",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Emir",
+        "Adresse": "Abdelkader",
+        "Contact": "Larba."
+    },
+    {
+        "Wilaya": "Oued",
+        "Nom": "ALLEUG",
+        "Pr\u00e9nom": "(en",
+        "Adresse": "face",
+        "Contact": "de"
+    },
+    {
+        "Wilaya": "TAFAT",
+        "Nom": "Salim",
+        "Pr\u00e9nom": "Cite",
+        "Adresse": "El Meliani. Ould Yaich.",
+        "Contact": "Blida"
+    },
+    {
+        "Wilaya": "R\u00e9sidence",
+        "Nom": "Ben",
+        "Pr\u00e9nom": "omar",
+        "Adresse": "Bt",
+        "Contact": "A1"
+    },
+    {
+        "Wilaya": "BOUROU",
+        "Nom": "Aldjia",
+        "Pr\u00e9nom": "Cite",
+        "Adresse": "126 logts",
+        "Contact": "Bouira"
+    },
+    {
+        "Wilaya": "DJERIDANE",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "1100 Bt 04 n\u00b003 Bouira",
+        "Contact": "026930176"
+    },
+    {
+        "Wilaya": "Lotissement",
+        "Nom": "Harkat,",
+        "Pr\u00e9nom": "pr\u00e8s",
+        "Adresse": "de",
+        "Contact": "0556538469"
+    },
+    {
+        "Wilaya": "l\u2019hopital",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Boudiaf,",
+        "Adresse": "Bouira",
+        "Contact": "0796662704"
+    },
+    {
+        "Wilaya": "MAKHLOUFI",
+        "Nom": "Yazid",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "Aissani,",
+        "Contact": "Lakhdaria"
+    },
+    {
+        "Wilaya": "MEDJRAS",
+        "Nom": "Hocine",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "130 Logts Bouira",
+        "Contact": "026939022"
+    },
+    {
+        "Wilaya": "MELLAL",
+        "Nom": "Faiza",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "480 lgts",
+        "Contact": "Lakhdaria"
+    },
+    {
+        "Wilaya": "NINACH",
+        "Nom": "Chahrazed",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "de Bouira",
+        "Contact": "0557038066"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "280",
+        "Pr\u00e9nom": "logts,",
+        "Adresse": "num\u00e9ro 16",
+        "Contact": "Draa"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Sersouf",
+        "Pr\u00e9nom": "en",
+        "Adresse": "face de",
+        "Contact": "l\u2019\u00e9cole"
+    },
+    {
+        "Wilaya": "MERAHI",
+        "Nom": "Ismail",
+        "Pr\u00e9nom": "Sersouf,",
+        "Adresse": "",
+        "Contact": "Tamanrasset"
+    },
+    {
+        "Wilaya": "Tamanrasset",
+        "Nom": "MERAR",
+        "Pr\u00e9nom": "Salah",
+        "Adresse": "EPH tamenrasset",
+        "Contact": "0697889627"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Tahaggart,",
+        "Pr\u00e9nom": "en",
+        "Adresse": "face du",
+        "Contact": "0658975958"
+    },
+    {
+        "Wilaya": "Eph",
+        "Nom": "Bouguerra",
+        "Pr\u00e9nom": "Boulaares",
+        "Adresse": "",
+        "Contact": "0659983865"
+    },
+    {
+        "Wilaya": "BOUJRAF",
+        "Nom": "Noureddine",
+        "Pr\u00e9nom": "Quartier",
+        "Adresse": "Bel Air,",
+        "Contact": "T\u00e9bessa"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Mokrani",
+        "Pr\u00e9nom": "Lazhar",
+        "Adresse": "",
+        "Contact": "(route"
+    },
+    {
+        "Wilaya": "HAMDANI",
+        "Nom": "Abdallah",
+        "Pr\u00e9nom": "annaba)",
+        "Adresse": "en face de la mosqu\u00e9e",
+        "Contact": "0699992778"
+    },
+    {
+        "Wilaya": "SADESSAOUD",
+        "Nom": "Kenza",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Tebessa",
+        "Contact": "0663019488"
+    },
+    {
+        "Wilaya": "ACHOURI",
+        "Nom": "Sid",
+        "Pr\u00e9nom": "Ahmed",
+        "Adresse": "Fg Ain Nedjar n\u00b0 4 TLEMCEN",
+        "Contact": "043204141"
+    },
+    {
+        "Wilaya": "ADDOU",
+        "Nom": "Sidi",
+        "Pr\u00e9nom": "Mohamed",
+        "Adresse": "Cit\u00e9 El Makam, bloc A54",
+        "Contact": "043449772"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "les",
+        "Pr\u00e9nom": "cerisiers",
+        "Adresse": "Bt i rez-de-",
+        "Contact": "0540697006"
+    },
+    {
+        "Wilaya": "N",
+        "Nom": "55",
+        "Pr\u00e9nom": "rue",
+        "Adresse": "Tlemcen",
+        "Contact": "centre-ville"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "112",
+        "Pr\u00e9nom": "logts,",
+        "Adresse": "Rue",
+        "Contact": "Gaouar"
+    },
+    {
+        "Wilaya": "ARBAOUI",
+        "Nom": "Bouzidi",
+        "Pr\u00e9nom": "Hocine",
+        "Adresse": "Bt \"A\" n\u00b0 05 1er \u00e9tage",
+        "Contact": "0661250404"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Rostane",
+        "Pr\u00e9nom": "Abdelmadjid",
+        "Adresse": "n\u00b0",
+        "Contact": "1"
+    },
+    {
+        "Wilaya": "BABA",
+        "Nom": "AHMED",
+        "Pr\u00e9nom": "Hadj",
+        "Adresse": "Boumediene",
+        "Contact": "043264117"
+    },
+    {
+        "Wilaya": "Boulevard",
+        "Nom": "A\u00een-Seb\u00e2a",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "\"",
+        "Contact": "C8"
+    },
+    {
+        "Wilaya": "BENDAHMANE",
+        "Nom": "Ibrahim",
+        "Pr\u00e9nom": "\"",
+        "Adresse": "Kiffane Commune de",
+        "Contact": "043564290"
+    },
+    {
+        "Wilaya": "52,",
+        "Nom": "Rue",
+        "Pr\u00e9nom": "Ibn",
+        "Adresse": "Rochd l'abattoir",
+        "Contact": "-"
+    },
+    {
+        "Wilaya": "BELKHATIR",
+        "Nom": "Amal",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "",
+        "Contact": "Tlemcen"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Azzouni",
+        "Pr\u00e9nom": "rue",
+        "Adresse": "5 N\u00b010,",
+        "Contact": "0551071132"
+    },
+    {
+        "Wilaya": "Mohamed",
+        "Nom": "N",
+        "Pr\u00e9nom": "32",
+        "Adresse": "CITE BEL HORIZON- 04341",
+        "Contact": "5928"
+    },
+    {
+        "Wilaya": "BOUAISSA",
+        "Nom": "Adil",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "des fr\u00e8res Ayad,",
+        "Contact": "Remchi"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "148",
+        "Pr\u00e9nom": "Logements",
+        "Adresse": "Bt B10",
+        "Contact": "n\u00b0"
+    },
+    {
+        "Wilaya": "BOUAYED",
+        "Nom": "Mohammed",
+        "Pr\u00e9nom": "Said",
+        "Adresse": "",
+        "Contact": "043276555"
+    },
+    {
+        "Wilaya": "CHAIF",
+        "Nom": "Amel",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "cadi Maghnia,",
+        "Contact": "Tlemcen"
+    },
+    {
+        "Wilaya": "DIB",
+        "Nom": "Fadel",
+        "Pr\u00e9nom": "Pr\u00e9",
+        "Adresse": "du grand bassin, Tlemcen",
+        "Contact": "043414141"
+    },
+    {
+        "Wilaya": "39",
+        "Nom": "angle",
+        "Pr\u00e9nom": "Kazi",
+        "Adresse": "Aouel Mohamed",
+        "Contact": "043273864"
+    },
+    {
+        "Wilaya": "GAOUAR",
+        "Nom": "Fethallah",
+        "Pr\u00e9nom": "et",
+        "Adresse": "Benabdelmalek Ramadane,",
+        "Contact": "0770695050"
+    },
+    {
+        "Wilaya": "13",
+        "Nom": "cit\u00e9",
+        "Pr\u00e9nom": "les",
+        "Adresse": "Dahlias kiffane",
+        "Contact": "(Au"
+    },
+    {
+        "Wilaya": "dos",
+        "Nom": "de",
+        "Pr\u00e9nom": "l'h\u00f4tel",
+        "Adresse": "IBIS),",
+        "Contact": "Tlemcen"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "320",
+        "Pr\u00e9nom": "logements,",
+        "Adresse": "25",
+        "Contact": "rue"
+    },
+    {
+        "Wilaya": "KADDOUR",
+        "Nom": "Ouassila",
+        "Pr\u00e9nom": "Sayeh",
+        "Adresse": "Missoum,",
+        "Contact": "Ghazaouet,"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Sedjelmaci",
+        "Pr\u00e9nom": "Abderrahmane",
+        "Adresse": "",
+        "Contact": "n\u00b0"
+    },
+    {
+        "Wilaya": "LOUDJEDI",
+        "Nom": "MOUEDDEN",
+        "Pr\u00e9nom": "Naoual",
+        "Adresse": "EPH Ghazaouet",
+        "Contact": "daliyoucefnaoual@gmail.com"
+    },
+    {
+        "Wilaya": "Cite",
+        "Nom": "les",
+        "Pr\u00e9nom": "cerisiers",
+        "Adresse": "\u00e0 c\u00f4t\u00e9 de la",
+        "Contact": "station"
+    },
+    {
+        "Wilaya": "MOULEY",
+        "Nom": "SLIMANE",
+        "Pr\u00e9nom": "Chakib",
+        "Adresse": "Boulevard de l'ALN Chetouane",
+        "Contact": "043200939"
+    },
+    {
+        "Wilaya": "Clinique",
+        "Nom": "Mimosa,",
+        "Pr\u00e9nom": "155",
+        "Adresse": "",
+        "Contact": "Riath"
+    },
+    {
+        "Wilaya": "lahoual,",
+        "Nom": "Imama",
+        "Pr\u00e9nom": "-",
+        "Adresse": "",
+        "Contact": "Tlemcen"
+    },
+    {
+        "Wilaya": "TOUAOULA",
+        "Nom": "Moufida",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Maghnia",
+        "Contact": "0555474253"
+    },
+    {
+        "Wilaya": "ZENNAKI",
+        "Nom": "Mansouria",
+        "Pr\u00e9nom": "Imama,",
+        "Adresse": "Tlemcen",
+        "Contact": "zennakimansouria13@gmail.co"
+    },
+    {
+        "Wilaya": "1",
+        "Nom": "cit\u00e9",
+        "Pr\u00e9nom": "63",
+        "Adresse": "logts BT A 1 route de",
+        "Contact": "Ain"
+    },
+    {
+        "Wilaya": "Fay\u00e7al",
+        "Nom": "Route",
+        "Pr\u00e9nom": "d\u2019Alger",
+        "Adresse": "200 logts soho bloc",
+        "Contact": "K"
+    },
+    {
+        "Wilaya": "D78",
+        "Nom": "en",
+        "Pr\u00e9nom": "face",
+        "Adresse": "de l'h\u00f4pital",
+        "Contact": "Youcef"
+    },
+    {
+        "Wilaya": "HADDOU",
+        "Nom": "Hicham",
+        "Pr\u00e9nom": "Damerdji,",
+        "Adresse": "",
+        "Contact": "Tiaret"
+    },
+    {
+        "Wilaya": "Hai",
+        "Nom": "Teffah",
+        "Pr\u00e9nom": "1,",
+        "Adresse": "route clinique",
+        "Contact": "nour,"
+    },
+    {
+        "Wilaya": "REBBOUH",
+        "Nom": "Fatima",
+        "Pr\u00e9nom": "Zohra",
+        "Adresse": "",
+        "Contact": "Tiaret"
+    },
+    {
+        "Wilaya": "91,",
+        "Nom": "Bt",
+        "Pr\u00e9nom": "08,",
+        "Adresse": "Cit\u00e9 510",
+        "Contact": "logements,"
+    },
+    {
+        "Wilaya": "ABDELLI",
+        "Nom": "Amar",
+        "Pr\u00e9nom": "Krim",
+        "Adresse": "",
+        "Contact": "BELKACEM"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Colonnel",
+        "Pr\u00e9nom": "Amirouche,",
+        "Adresse": "Ain",
+        "Contact": "El"
+    },
+    {
+        "Wilaya": "AIT",
+        "Nom": "ALI",
+        "Pr\u00e9nom": "Faredj",
+        "Adresse": "",
+        "Contact": "Hammam"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "colonel",
+        "Pr\u00e9nom": "Zamoum",
+        "Adresse": "",
+        "Contact": "(Im"
+    },
+    {
+        "Wilaya": "BOUAKIZ",
+        "Nom": "Farid",
+        "Pr\u00e9nom": "Abdellaoui),",
+        "Adresse": "Tizi",
+        "Contact": "Ouzou"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "150",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "F142, Azazga",
+        "Contact": "026342851"
+    },
+    {
+        "Wilaya": "\u00eelot",
+        "Nom": "central",
+        "Pr\u00e9nom": "num\u00e9ro",
+        "Adresse": "5 , Draa Ben",
+        "Contact": "0557928711"
+    },
+    {
+        "Wilaya": "KHELIF",
+        "Nom": "Zineb",
+        "Pr\u00e9nom": "Khedda,",
+        "Adresse": "Tizi Ouzou",
+        "Contact": "drkhelifz@gmail.com"
+    },
+    {
+        "Wilaya": "Clinique",
+        "Nom": "Fatema",
+        "Pr\u00e9nom": "al",
+        "Adresse": "Azhar",
+        "Contact": "Dely"
+    },
+    {
+        "Wilaya": "3bis,",
+        "Nom": "Rue",
+        "Pr\u00e9nom": "des",
+        "Adresse": "fr\u00e8res",
+        "Contact": "Boughedou,"
+    },
+    {
+        "Wilaya": "AFREDJ",
+        "Nom": "Nawel",
+        "Pr\u00e9nom": "H\u00e9patologie",
+        "Adresse": "CHU",
+        "Contact": "Mustapha"
+    },
+    {
+        "Wilaya": "AHMED",
+        "Nom": "HAMED",
+        "Pr\u00e9nom": "Ibrahim",
+        "Adresse": "Rue El Hoggar,",
+        "Contact": "HIdra"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "des",
+        "Pr\u00e9nom": "bananiers,",
+        "Adresse": "Bt. 48",
+        "Contact": "N\u00b002,"
+    },
+    {
+        "Wilaya": "AIDEL",
+        "Nom": "Rachida",
+        "Pr\u00e9nom": "188",
+        "Adresse": "LOGTS, Mohammadia, Bab",
+        "Contact": "021890225"
+    },
+    {
+        "Wilaya": "AISSAT",
+        "Nom": "Yakhlef",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Bab El Oued",
+        "Contact": "0551460327"
+    },
+    {
+        "Wilaya": "EPH",
+        "Nom": "Djillali",
+        "Pr\u00e9nom": "Rahmouni",
+        "Adresse": "(ex",
+        "Contact": "les"
+    },
+    {
+        "Wilaya": "AIT",
+        "Nom": "BELKACEM",
+        "Pr\u00e9nom": "Ania",
+        "Adresse": "",
+        "Contact": "ania.ait.belkacem@gmail.com"
+    },
+    {
+        "Wilaya": "coop",
+        "Nom": "Al",
+        "Pr\u00e9nom": "Manar",
+        "Adresse": "5, Ain",
+        "Contact": "Naadja"
+    },
+    {
+        "Wilaya": "22,",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Ahmed",
+        "Adresse": "Aoune, El Hrrach",
+        "Contact": "021526154"
+    },
+    {
+        "Wilaya": "Immeuble",
+        "Nom": "Printania,",
+        "Pr\u00e9nom": "parc",
+        "Adresse": "",
+        "Contact": "023132234"
+    },
+    {
+        "Wilaya": "Avenue",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Boubella,",
+        "Adresse": "Bab",
+        "Contact": "El"
+    },
+    {
+        "Wilaya": "40",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Mohamed",
+        "Adresse": "Chabane, El Biar",
+        "Contact": "0560399120"
+    },
+    {
+        "Wilaya": "Cooperative",
+        "Nom": "Daouia",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "N 04 Appt",
+        "Contact": "N"
+    },
+    {
+        "Wilaya": "AMMAR",
+        "Nom": "KHODJA",
+        "Pr\u00e9nom": "Rafika",
+        "Adresse": "",
+        "Contact": "0657724958"
+    },
+    {
+        "Wilaya": "ATEK",
+        "Nom": "Karim",
+        "Pr\u00e9nom": "Farid",
+        "Adresse": "Rue Didouche Mourad,",
+        "Contact": "Alger"
+    },
+    {
+        "Wilaya": "AZZOUG",
+        "Nom": "Linda",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Beni Messous",
+        "Contact": "Lindaazzoug8@gmail.com"
+    },
+    {
+        "Wilaya": "115,",
+        "Nom": "cit\u00e9",
+        "Pr\u00e9nom": "Zerhouni",
+        "Adresse": "Mokhtar (ex",
+        "Contact": "0770546900"
+    },
+    {
+        "Wilaya": "Bananiers)",
+        "Nom": "Bab",
+        "Pr\u00e9nom": "Ezzouar",
+        "Adresse": "",
+        "Contact": "0699587803"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "20",
+        "Pr\u00e9nom": "Aout",
+        "Adresse": "1955, Bt 10 RDC, Dar",
+        "Contact": "0797768671"
+    },
+    {
+        "Wilaya": "El",
+        "Nom": "Beida,",
+        "Pr\u00e9nom": "Alger",
+        "Adresse": "",
+        "Contact": "Dr.belattaf.gastro@gmail.com"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "de",
+        "Pr\u00e9nom": "l\u2019hopital,",
+        "Adresse": "Rouiba.",
+        "Contact": "Alger"
+    },
+    {
+        "Wilaya": "06",
+        "Nom": "rue",
+        "Pr\u00e9nom": "batti",
+        "Adresse": "haidour, Bab El Oued",
+        "Contact": "021963981"
+    },
+    {
+        "Wilaya": "BEN",
+        "Nom": "SI",
+        "Pr\u00e9nom": "SAID",
+        "Adresse": "",
+        "Contact": "Nasser"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Ben",
+        "Pr\u00e9nom": "Boulaid,",
+        "Adresse": "Bt 2 entr\u00e9e B",
+        "Contact": "0671776309"
+    },
+    {
+        "Wilaya": "BENCHEBHA",
+        "Nom": "Leila",
+        "Pr\u00e9nom": "N\u00b041,",
+        "Adresse": "Bourouba-Bachdjarrah",
+        "Contact": "Benchebha.l@gmail.com"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Ali",
+        "Pr\u00e9nom": "Bounadja",
+        "Adresse": "Sol, En face",
+        "Contact": "salle"
+    },
+    {
+        "Wilaya": "de",
+        "Nom": "sport",
+        "Pr\u00e9nom": "(\u00e0",
+        "Adresse": "la sortie de",
+        "Contact": "birtouta"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Ain",
+        "Pr\u00e9nom": "Allah,",
+        "Adresse": "Bt 428 B, Dely",
+        "Contact": "021910060"
+    },
+    {
+        "Wilaya": "BENSALEM",
+        "Nom": "Malya",
+        "Pr\u00e9nom": "Brahim",
+        "Adresse": "",
+        "Contact": "0674415063"
+    },
+    {
+        "Wilaya": "72",
+        "Nom": "Rue",
+        "Pr\u00e9nom": "Boudjemaa",
+        "Adresse": "",
+        "Contact": "Moghni,"
+    },
+    {
+        "Wilaya": "BERKANE-ATEK",
+        "Nom": "Karima",
+        "Pr\u00e9nom": "Hussein",
+        "Adresse": "",
+        "Contact": "Dey"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Hassiba",
+        "Pr\u00e9nom": "Ben",
+        "Adresse": "Bouali,",
+        "Contact": "Alger"
+    },
+    {
+        "Wilaya": "49,",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Brahim",
+        "Adresse": "Hadjres, Beni",
+        "Contact": "023113361"
+    },
+    {
+        "Wilaya": "Messous",
+        "Nom": "(en",
+        "Pr\u00e9nom": "face",
+        "Adresse": "l'hopital)",
+        "Contact": "0557414995"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Fougeroux",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "",
+        "Contact": "G2"
+    },
+    {
+        "Wilaya": "BOUDOUCHA",
+        "Nom": "Houda",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Beni Messous",
+        "Contact": "boudouchahouda@gmail.com"
+    },
+    {
+        "Wilaya": "BOUFENAR",
+        "Nom": "Abdelhakim",
+        "Pr\u00e9nom": "N\u00b01,",
+        "Adresse": "Labridja, Staoueli, Alger",
+        "Contact": "0555556600"
+    },
+    {
+        "Wilaya": "BOUKERCHA",
+        "Nom": "Louiza",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Garidi 1 Bt 27 n\u00b0 7, Kouba",
+        "Contact": "021680895"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "8mai",
+        "Pr\u00e9nom": "1945",
+        "Adresse": "Bt 13. Face \u00e0",
+        "Contact": "la"
+    },
+    {
+        "Wilaya": "poste",
+        "Nom": "de",
+        "Pr\u00e9nom": "sorecal.",
+        "Adresse": "Bab",
+        "Contact": "Ezzouar"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "les",
+        "Pr\u00e9nom": "sources.",
+        "Adresse": "Bir Mourad rais",
+        "Contact": "0697208400"
+    },
+    {
+        "Wilaya": "BOUTALEB",
+        "Nom": "Amira",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Bab El Oued",
+        "Contact": "amibouta-68@live.fr"
+    },
+    {
+        "Wilaya": "BOUSSAFSAF",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Amine",
+        "Adresse": "CHU",
+        "Contact": "Mustapha"
+    },
+    {
+        "Wilaya": "CHAIB",
+        "Nom": "Hussein",
+        "Pr\u00e9nom": "Dey",
+        "Adresse": "",
+        "Contact": "023775382"
+    },
+    {
+        "Wilaya": "CHAOUI",
+        "Nom": "Farid",
+        "Pr\u00e9nom": "13,",
+        "Adresse": "rue khawarismi, Kouba",
+        "Contact": "021234163"
+    },
+    {
+        "Wilaya": "CHARIF",
+        "Nom": "Chokri",
+        "Pr\u00e9nom": "Lot",
+        "Adresse": "N\u00b004 vieux moulin, Doura. Alger",
+        "Contact": "021314345"
+    },
+    {
+        "Wilaya": "EPH",
+        "Nom": "Rahmouni",
+        "Pr\u00e9nom": "Djillali",
+        "Adresse": "(ex",
+        "Contact": "orangers)"
+    },
+    {
+        "Wilaya": "el",
+        "Nom": "mouradia",
+        "Pr\u00e9nom": "Alger",
+        "Adresse": "",
+        "Contact": "chnadir78@hotmail.fr"
+    },
+    {
+        "Wilaya": "DIAF-AMROUNI",
+        "Nom": "Ghania",
+        "Pr\u00e9nom": "43,",
+        "Adresse": "rue Abderrahmane Sbaa Belle",
+        "Contact": "021526166"
+    },
+    {
+        "Wilaya": "DJOHA",
+        "Nom": "Morad",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "Saidi Lakhdar, Bab El",
+        "Contact": "Oued"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "ben",
+        "Pr\u00e9nom": "djaida",
+        "Adresse": "01 N\u00b034, Bordj",
+        "Contact": "El"
+    },
+    {
+        "Wilaya": "DRIDI",
+        "Nom": "Rabia",
+        "Pr\u00e9nom": "Bahri",
+        "Adresse": "",
+        "Contact": "0552398594"
+    },
+    {
+        "Wilaya": "DRIR",
+        "Nom": "Othmane",
+        "Pr\u00e9nom": "H\u00e9patologie",
+        "Adresse": "CHU",
+        "Contact": "Mustapha"
+    },
+    {
+        "Wilaya": "DRIS",
+        "Nom": "Abderrahmane",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Mistapha",
+        "Contact": "0772276919"
+    },
+    {
+        "Wilaya": "DRIS",
+        "Nom": "Ikram",
+        "Pr\u00e9nom": "Lot",
+        "Adresse": "REKAZIN N\u00b051 B2 Baraki,",
+        "Contact": "Alger"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "08",
+        "Pr\u00e9nom": "Mai",
+        "Adresse": "1945 Batiment",
+        "Contact": "16A,"
+    },
+    {
+        "Wilaya": "GUENOUNE",
+        "Nom": "Karim",
+        "Pr\u00e9nom": "34",
+        "Adresse": "rue Ahmed Amirouche,",
+        "Contact": "Rouiba"
+    },
+    {
+        "Wilaya": "GUESSAB",
+        "Nom": "Nawal",
+        "Pr\u00e9nom": "H\u00e9patologie",
+        "Adresse": "CHU Mustapha",
+        "Contact": "drguessab@yahoo.fr"
+    },
+    {
+        "Wilaya": "HADJ",
+        "Nom": "MATI",
+        "Pr\u00e9nom": "Salah",
+        "Adresse": "Eddine Clinique El Azhar, Dely Brahim",
+        "Contact": "0670244423"
+    },
+    {
+        "Wilaya": "cit\u00e9",
+        "Nom": "Said",
+        "Pr\u00e9nom": "hamdine,",
+        "Adresse": "Bir",
+        "Contact": "Mourad"
+    },
+    {
+        "Wilaya": "cit\u00e9",
+        "Nom": "des",
+        "Pr\u00e9nom": "anassers",
+        "Adresse": "-Bt .805",
+        "Contact": "N\u00b0"
+    },
+    {
+        "Wilaya": "HAMEL",
+        "Nom": "Hassen",
+        "Pr\u00e9nom": "03,",
+        "Adresse": "",
+        "Contact": "Kouba"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Oumakhlouf",
+        "Pr\u00e9nom": "Mahmoud",
+        "Adresse": "",
+        "Contact": "("
+    },
+    {
+        "Wilaya": "EGECO),",
+        "Nom": "Bat",
+        "Pr\u00e9nom": "43",
+        "Adresse": "Cage (B) N\u00b005,",
+        "Contact": "023765042"
+    },
+    {
+        "Wilaya": "HETIT",
+        "Nom": "Sabah",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Beni",
+        "Contact": "Messous"
+    },
+    {
+        "Wilaya": "KARCH",
+        "Nom": "Abir",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Douera",
+        "Contact": "abmedic@hotmail.fr"
+    },
+    {
+        "Wilaya": "114",
+        "Nom": "rue",
+        "Pr\u00e9nom": "du",
+        "Adresse": "1er novembre (route",
+        "Contact": "de"
+    },
+    {
+        "Wilaya": "KADOUCHE",
+        "Nom": "Khadidja",
+        "Pr\u00e9nom": "l\u2019h\u00f4pital),",
+        "Adresse": "Rouiba, Alger",
+        "Contact": "0554095490"
+    },
+    {
+        "Wilaya": "KELLOU",
+        "Nom": "Neila",
+        "Pr\u00e9nom": "Clinique",
+        "Adresse": "Reefak el Feth,",
+        "Contact": "0670171108"
+    },
+    {
+        "Wilaya": "KHELASSI",
+        "Nom": "Laiza",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "150 logts Bt 08 rez de",
+        "Contact": "0556121336"
+    },
+    {
+        "Wilaya": "LAYAIDA",
+        "Nom": "Karim",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Mustapha",
+        "Contact": "karim@layaida.com"
+    },
+    {
+        "Wilaya": "LOUALI",
+        "Nom": "Wadhiha",
+        "Pr\u00e9nom": "03",
+        "Adresse": "rue des fr\u00e8res Nedir,",
+        "Contact": "0556956061"
+    },
+    {
+        "Wilaya": "Baba",
+        "Nom": "Hassen,",
+        "Pr\u00e9nom": "Alger",
+        "Adresse": "",
+        "Contact": "loualiwad@gmail.com"
+    },
+    {
+        "Wilaya": "MADANI",
+        "Nom": "Titem",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Said Hamdine 384 logts bloc",
+        "Contact": "0553814514"
+    },
+    {
+        "Wilaya": "05",
+        "Nom": "Bt",
+        "Pr\u00e9nom": "A17",
+        "Adresse": "N 06, Hydra, Alger",
+        "Contact": "023542693"
+    },
+    {
+        "Wilaya": "MALAOUI",
+        "Nom": "Lyes",
+        "Pr\u00e9nom": "Clinique",
+        "Adresse": "En-nadjah, Birkhadem",
+        "Contact": "0556055071"
+    },
+    {
+        "Wilaya": "centre",
+        "Nom": "pr\u00e8s",
+        "Pr\u00e9nom": "de",
+        "Adresse": "l\u2019APC",
+        "Contact": "023561297"
+    },
+    {
+        "Wilaya": "11",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Taher",
+        "Adresse": "Bensenouci, Hussein",
+        "Contact": "0770633533"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "250",
+        "Pr\u00e9nom": "logements.",
+        "Adresse": "Cheraga",
+        "Contact": "0783188921"
+    },
+    {
+        "Wilaya": "HLM",
+        "Nom": "Aissat",
+        "Pr\u00e9nom": "Idir",
+        "Adresse": "El",
+        "Contact": "Harrach"
+    },
+    {
+        "Wilaya": "MENNI",
+        "Nom": "Wahiba",
+        "Pr\u00e9nom": "Clinique",
+        "Adresse": "Chifa Hydra",
+        "Contact": "0784190002"
+    },
+    {
+        "Wilaya": "Bouchaoui",
+        "Nom": "3,",
+        "Pr\u00e9nom": "GP",
+        "Adresse": "335, section",
+        "Contact": "0781377354"
+    },
+    {
+        "Wilaya": "5",
+        "Nom": "-",
+        "Pr\u00e9nom": "cheraga-",
+        "Adresse": "",
+        "Contact": "rym.meribout@gmail.com"
+    },
+    {
+        "Wilaya": "R\u00e9sidence",
+        "Nom": "SERAPI",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "B N\u00b0A16",
+        "Contact": "0699985988"
+    },
+    {
+        "Wilaya": "(RDC),",
+        "Nom": "Birkhadem,",
+        "Pr\u00e9nom": "Alger",
+        "Adresse": "",
+        "Contact": "medecinedigestive@hotmail.com"
+    },
+    {
+        "Wilaya": "MITICHE",
+        "Nom": "Ameur",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Bab El",
+        "Contact": "Oued"
+    },
+    {
+        "Wilaya": "12",
+        "Nom": "rue",
+        "Pr\u00e9nom": "drift",
+        "Adresse": "",
+        "Contact": "Mohamed,"
+    },
+    {
+        "Wilaya": "380",
+        "Nom": "cours",
+        "Pr\u00e9nom": "aissat",
+        "Adresse": "idir bt 09,",
+        "Contact": "El"
+    },
+    {
+        "Wilaya": "267",
+        "Nom": "lot",
+        "Pr\u00e9nom": "les",
+        "Adresse": "amandiers",
+        "Contact": "Baba"
+    },
+    {
+        "Wilaya": "OSMANE",
+        "Nom": "Radia",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "Bab El Oued",
+        "Contact": "osmaneradia@gmail.com"
+    },
+    {
+        "Wilaya": "63",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Hassiba",
+        "Adresse": "Ben",
+        "Contact": "Bouali,"
+    },
+    {
+        "Wilaya": "place",
+        "Nom": "du",
+        "Pr\u00e9nom": "1er",
+        "Adresse": "Mai,",
+        "Contact": "Alger"
+    },
+    {
+        "Wilaya": "106,",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Hassiba",
+        "Adresse": "Ben",
+        "Contact": "Bouali,"
+    },
+    {
+        "Wilaya": "R\u00e9sidence",
+        "Nom": "Saint",
+        "Pr\u00e9nom": "Rapha\u00ebl",
+        "Adresse": "bat c",
+        "Contact": "023388530"
+    },
+    {
+        "Wilaya": "OUKAOUR",
+        "Nom": "Ali",
+        "Pr\u00e9nom": "1",
+        "Adresse": "Elbiar",
+        "Contact": "055399080"
+    },
+    {
+        "Wilaya": "Clinique",
+        "Nom": "Sidi",
+        "Pr\u00e9nom": "Yahia",
+        "Adresse": "2",
+        "Contact": "alioukaour@hotmail.com"
+    },
+    {
+        "Wilaya": "OULED",
+        "Nom": "CHEIKH",
+        "Pr\u00e9nom": "Ibtissem",
+        "Adresse": "H\u00e9patologie CHU Mustapha",
+        "Contact": "dr.ouledcheikh@hotmail.fr"
+    },
+    {
+        "Wilaya": "OUARAB",
+        "Nom": "Omar",
+        "Pr\u00e9nom": "b\u00e2timent",
+        "Adresse": "71",
+        "Contact": "RDC"
+    },
+    {
+        "Wilaya": "REBIAI",
+        "Nom": "Souad",
+        "Pr\u00e9nom": "15",
+        "Adresse": "rue Cirta .",
+        "Contact": "Hydra"
+    },
+    {
+        "Wilaya": "0550",
+        "Nom": "76",
+        "Pr\u00e9nom": "86",
+        "Adresse": "",
+        "Contact": "02"
+    },
+    {
+        "Wilaya": "ROUABHIA",
+        "Nom": "Souhila",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "dauphin n 7,",
+        "Contact": "Draria"
+    },
+    {
+        "Wilaya": "SAIDANI",
+        "Nom": "Khadidja",
+        "Pr\u00e9nom": "HCA,",
+        "Adresse": "",
+        "Contact": "Alger"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Said",
+        "Pr\u00e9nom": "Hamdine,",
+        "Adresse": "",
+        "Contact": "Bir"
+    },
+    {
+        "Wilaya": "Clinique",
+        "Nom": "Fatema",
+        "Pr\u00e9nom": "Al",
+        "Adresse": "",
+        "Contact": "Azhar,"
+    },
+    {
+        "Wilaya": "SAOULA",
+        "Nom": "CHU",
+        "Pr\u00e9nom": "Bab",
+        "Adresse": "El",
+        "Contact": "Oued"
+    },
+    {
+        "Wilaya": "coop.",
+        "Nom": "Ibtissem",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "B 1er \u00e9tage,",
+        "Contact": "021536397"
+    },
+    {
+        "Wilaya": "TAHI",
+        "Nom": "Riad",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "1A Coop Abbes Laghrour",
+        "Contact": "021289999"
+    },
+    {
+        "Wilaya": "13,",
+        "Nom": "Avenue",
+        "Pr\u00e9nom": "pasteur",
+        "Adresse": "",
+        "Contact": "ain"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Les",
+        "Pr\u00e9nom": "Halles",
+        "Adresse": "",
+        "Contact": "b\u00e2timent"
+    },
+    {
+        "Wilaya": "num\u00e9ro",
+        "Nom": "09",
+        "Pr\u00e9nom": "Belouizdad",
+        "Adresse": "Alger",
+        "Contact": "norgast@yahoo.fr"
+    },
+    {
+        "Wilaya": "16,",
+        "Nom": "route",
+        "Pr\u00e9nom": "el",
+        "Adresse": "djamila,",
+        "Contact": "Ain"
+    },
+    {
+        "Wilaya": "TEFFAHI",
+        "Nom": "Ahmed",
+        "Pr\u00e9nom": "Nacim",
+        "Adresse": "06 RUE MED FELLAH",
+        "Contact": "KOUBA"
+    },
+    {
+        "Wilaya": "Bach",
+        "Nom": "Djerrah,",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "38 Bloc",
+        "Contact": "06"
+    },
+    {
+        "Wilaya": "TERKI",
+        "Nom": "Acila",
+        "Pr\u00e9nom": "17",
+        "Adresse": "Rue Rabah Noel",
+        "Contact": "021235894"
+    },
+    {
+        "Wilaya": "Clos",
+        "Nom": "de",
+        "Pr\u00e9nom": "la",
+        "Adresse": "grotte N\u00b024,",
+        "Contact": "Ain"
+    },
+    {
+        "Wilaya": "TOUATI",
+        "Nom": "Widad",
+        "Pr\u00e9nom": "Clinique",
+        "Adresse": "ZOHOR saoula, Alger",
+        "Contact": "0552004467"
+    },
+    {
+        "Wilaya": "Clinique",
+        "Nom": "Arezki",
+        "Pr\u00e9nom": "Kehal",
+        "Adresse": "(ex villa du",
+        "Contact": "0549091113"
+    },
+    {
+        "Wilaya": "trait\u00e9).",
+        "Nom": "EPH",
+        "Pr\u00e9nom": "de",
+        "Adresse": "Birtraria, El Biar",
+        "Contact": "Toudjinedjla@gmail.com"
+    },
+    {
+        "Wilaya": "coop",
+        "Nom": "Sikh,",
+        "Pr\u00e9nom": "la",
+        "Adresse": "concorde Bloc",
+        "Contact": "D"
+    },
+    {
+        "Wilaya": "ZAIR",
+        "Nom": "Youcef",
+        "Pr\u00e9nom": "r.d.c",
+        "Adresse": ", Bir Mourad",
+        "Contact": "Rais"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "des",
+        "Pr\u00e9nom": "96",
+        "Adresse": "logements, b\u00e2timent",
+        "Contact": "0556000231"
+    },
+    {
+        "Wilaya": "C1,",
+        "Nom": "2eme",
+        "Pr\u00e9nom": "\u00e9tage.",
+        "Adresse": "Birtouta",
+        "Contact": "drzeghache@gmail.com"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "05",
+        "Pr\u00e9nom": "juillet",
+        "Adresse": "taaounia",
+        "Contact": "Ibn"
+    },
+    {
+        "Wilaya": "Sina",
+        "Nom": "batisse",
+        "Pr\u00e9nom": "992",
+        "Adresse": "",
+        "Contact": "n\u00b003"
+    },
+    {
+        "Wilaya": "GHELAB",
+        "Nom": "Cit\u00e9",
+        "Pr\u00e9nom": "Bab",
+        "Adresse": "Echaref, 04-101",
+        "Contact": "0551815578"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "5",
+        "Pr\u00e9nom": "Juillet,",
+        "Adresse": "bt 543, entr\u00e9e",
+        "Contact": "C,"
+    },
+    {
+        "Wilaya": "n2,",
+        "Nom": "nouvelle",
+        "Pr\u00e9nom": "ville,",
+        "Adresse": "",
+        "Contact": "Djelfa"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "150",
+        "Pr\u00e9nom": "logements",
+        "Adresse": "(Cr\u00e8te",
+        "Contact": "0552868221"
+    },
+    {
+        "Wilaya": "ALILICHE",
+        "Nom": "Boudjema",
+        "Pr\u00e9nom": "Est)",
+        "Adresse": "Bt A3 App 04 - Jijel (En",
+        "Contact": "0658001311"
+    },
+    {
+        "Wilaya": "face",
+        "Nom": "l'h\u00f4pital",
+        "Pr\u00e9nom": "de",
+        "Adresse": "Jijel)",
+        "Contact": "boudjemaaliliche@yahoo.fr"
+    },
+    {
+        "Wilaya": "BENYAHIA",
+        "Nom": "Abderrahmen",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Taher Jijel",
+        "Contact": "Abderrahmane-"
+    },
+    {
+        "Wilaya": "Jijel",
+        "Nom": "NOURHANE",
+        "Pr\u00e9nom": "Tahir,",
+        "Adresse": "Jijel",
+        "Contact": "0699887776"
+    },
+    {
+        "Wilaya": "BIRAMA",
+        "Nom": "Khaled",
+        "Pr\u00e9nom": "Centre-ville",
+        "Adresse": "de Jijel",
+        "Contact": "034472535"
+    },
+    {
+        "Wilaya": "MERADJI",
+        "Nom": "Cit\u00e9",
+        "Pr\u00e9nom": "Boucherka,",
+        "Adresse": "Tahir,",
+        "Contact": "Jijel"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "36",
+        "Pr\u00e9nom": "logements,",
+        "Adresse": "b\u00e2timent",
+        "Contact": "0683084600"
+    },
+    {
+        "Wilaya": "A,",
+        "Nom": "num\u00e9ro",
+        "Pr\u00e9nom": "1,",
+        "Adresse": "cit\u00e9 ADM- JIJEL",
+        "Contact": "034499704"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "600",
+        "Pr\u00e9nom": "logts,",
+        "Adresse": "pr\u00e9 de la",
+        "Contact": "036511351"
+    },
+    {
+        "Wilaya": "clinique",
+        "Nom": "El",
+        "Pr\u00e9nom": "Hidhab",
+        "Adresse": "",
+        "Contact": "0553920177"
+    },
+    {
+        "Wilaya": "ALIMOHAD",
+        "Nom": "Assia",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "20 ao\u00fbt 55,",
+        "Contact": "S\u00e9tif"
+    },
+    {
+        "Wilaya": "AZZI",
+        "Nom": "Toufik",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Bizar pr\u00e9s du CNR,",
+        "Contact": "S\u00e9tif"
+    },
+    {
+        "Wilaya": "183",
+        "Nom": "cit\u00e9",
+        "Pr\u00e9nom": "des",
+        "Adresse": "600",
+        "Contact": "logements"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "600",
+        "Pr\u00e9nom": "log",
+        "Adresse": "bloc D3 n\u00b0239,",
+        "Contact": "0664731274"
+    },
+    {
+        "Wilaya": "KESKES",
+        "Nom": "Ryma",
+        "Pr\u00e9nom": "Clinique",
+        "Adresse": "El Moncef,",
+        "Contact": "S\u00e9tif"
+    },
+    {
+        "Wilaya": "LAAMECHE",
+        "Nom": "Abdelwahab",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Bouaroua, S\u00e9tif",
+        "Contact": "036452136"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "des",
+        "Pr\u00e9nom": "400",
+        "Adresse": "",
+        "Contact": "logements"
+    },
+    {
+        "Wilaya": "b\u00e2timents",
+        "Nom": "B15,",
+        "Pr\u00e9nom": "El",
+        "Adresse": "",
+        "Contact": "Eulma"
+    },
+    {
+        "Wilaya": "ABBAS",
+        "Nom": "Khalida",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Sidi Cheikh N\u00b0166,",
+        "Contact": "Saida"
+    },
+    {
+        "Wilaya": "BENDIMRAD",
+        "Nom": "Riad",
+        "Pr\u00e9nom": "Batiments",
+        "Adresse": "du souk, Saida",
+        "Contact": "048436456"
+    },
+    {
+        "Wilaya": "Lotissement",
+        "Nom": "Sid",
+        "Pr\u00e9nom": "Chikh,",
+        "Adresse": "N\u00b0",
+        "Contact": "07"
+    },
+    {
+        "Wilaya": "EL",
+        "Nom": "BACHIR",
+        "Pr\u00e9nom": "Mohamed",
+        "Adresse": "EPH Saida",
+        "Contact": "0675969436"
+    },
+    {
+        "Wilaya": "Bloc",
+        "Nom": "Monpetshow,",
+        "Pr\u00e9nom": "route",
+        "Adresse": "",
+        "Contact": "de"
+    },
+    {
+        "Wilaya": "MAHEIDINE",
+        "Nom": "Sara",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Ahmed Medaghri,",
+        "Contact": "Saida"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Taleb",
+        "Pr\u00e9nom": "Aberrahmane",
+        "Adresse": "",
+        "Contact": "0797299106"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Sidi",
+        "Pr\u00e9nom": "Cheikh",
+        "Adresse": "Bloc C1 n\u00b001,",
+        "Contact": "048382058"
+    },
+    {
+        "Wilaya": "Skikda",
+        "Nom": "BOUMARAFI",
+        "Pr\u00e9nom": "Idriss",
+        "Adresse": "Salim Les all\u00e9es du 20 Aout 1955,",
+        "Contact": "Skikda"
+    },
+    {
+        "Wilaya": "ABOURA",
+        "Nom": "Zoubida",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "de Sidi Bel",
+        "Contact": "Abbes"
+    },
+    {
+        "Wilaya": "8",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Benslimane",
+        "Adresse": "",
+        "Contact": "Mokhtar,"
+    },
+    {
+        "Wilaya": "40",
+        "Nom": "rue",
+        "Pr\u00e9nom": "khemsiti.",
+        "Adresse": "Sidi",
+        "Contact": "Bel"
+    },
+    {
+        "Wilaya": "BEY-OMAR",
+        "Nom": "Abdelmadjid",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "de Sidi Bel Abbes",
+        "Contact": "dr.bey-omar@hotmail.com"
+    },
+    {
+        "Wilaya": "BOUGUEMRA",
+        "Nom": "Leila",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "de Sidi Bel",
+        "Contact": "Abbes"
+    },
+    {
+        "Wilaya": "CHIALI",
+        "Nom": "MAHMOUD",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "de Sidi Bel",
+        "Contact": "Abbes"
+    },
+    {
+        "Wilaya": "DELLANI",
+        "Nom": "Rokia",
+        "Pr\u00e9nom": "07",
+        "Adresse": "rue Amirouche",
+        "Contact": "Abdelkader"
+    },
+    {
+        "Wilaya": "N\u00b011",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Abban",
+        "Adresse": "",
+        "Contact": "Ramdhan,"
+    },
+    {
+        "Wilaya": "Sidi",
+        "Nom": "Bel",
+        "Pr\u00e9nom": "Abb\u00e8s",
+        "Adresse": "DJEBBAR Mohamed Sidi Yassin, Sidi Bel Abb\u00e8s",
+        "Contact": "0675260756"
+    },
+    {
+        "Wilaya": "17,",
+        "Nom": "Rue",
+        "Pr\u00e9nom": "Bilal",
+        "Adresse": "Ibn Rabah. BAB",
+        "Contact": "0697780222"
+    },
+    {
+        "Wilaya": "24",
+        "Nom": "rue",
+        "Pr\u00e9nom": "colonel",
+        "Adresse": "Feradj, Sidi",
+        "Contact": "Bel"
+    },
+    {
+        "Wilaya": "Placette",
+        "Nom": "el",
+        "Pr\u00e9nom": "Wiam",
+        "Adresse": "en face",
+        "Contact": "de"
+    },
+    {
+        "Wilaya": "MAHIEDDINE",
+        "Nom": "Sara",
+        "Pr\u00e9nom": "la",
+        "Adresse": "da\u00efra de sidi Djilali, Sidi Bel",
+        "Contact": "0697405305"
+    },
+    {
+        "Wilaya": "36",
+        "Nom": "boulevard",
+        "Pr\u00e9nom": "de",
+        "Adresse": "",
+        "Contact": "la"
+    },
+    {
+        "Wilaya": "SOULIMANE",
+        "Nom": "Amine",
+        "Pr\u00e9nom": "Soummam,",
+        "Adresse": "1 er \u00e9tage \u00e0",
+        "Contact": "0559578470"
+    },
+    {
+        "Wilaya": "gauche,",
+        "Nom": "porte",
+        "Pr\u00e9nom": "num\u00e9ro",
+        "Adresse": "",
+        "Contact": "12,"
+    },
+    {
+        "Wilaya": "Route",
+        "Nom": "de",
+        "Pr\u00e9nom": "Mascara,",
+        "Adresse": "Sidi",
+        "Contact": "Bel"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Saf",
+        "Pr\u00e9nom": "Saf",
+        "Adresse": "1276 logt bloc 116",
+        "Contact": "038411168"
+    },
+    {
+        "Wilaya": "BERREZEG",
+        "Nom": "Rachid",
+        "Pr\u00e9nom": "7",
+        "Adresse": "rue du CNRA",
+        "Contact": "038868724"
+    },
+    {
+        "Wilaya": "Annaba",
+        "Nom": "BOUAKKAZ",
+        "Pr\u00e9nom": "Safia",
+        "Adresse": "03, rue",
+        "Contact": "AbderrahmeneSnan"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Les",
+        "Pr\u00e9nom": "Fr\u00eanes",
+        "Adresse": "B\u00e2timent",
+        "Contact": "A5"
+    },
+    {
+        "Wilaya": "BOUGHERIRA",
+        "Nom": "Izhar",
+        "Pr\u00e9nom": "Amel",
+        "Adresse": "1er \u00e9tage Annaba, \u00e0 c\u00f4t\u00e9 de",
+        "Contact": "0549911597"
+    },
+    {
+        "Wilaya": "l'annexe",
+        "Nom": "de",
+        "Pr\u00e9nom": "la",
+        "Adresse": "m\u00e9decine",
+        "Contact": "de"
+    },
+    {
+        "Wilaya": "CHETTAB",
+        "Nom": "Frida",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "IBN SINA Annaba",
+        "Contact": "chet.fri@gmail.com"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "m\u00e9nadia",
+        "Pr\u00e9nom": "03",
+        "Adresse": "entr\u00e9e B 1",
+        "Contact": "er"
+    },
+    {
+        "Wilaya": "DAMENE",
+        "Nom": "DEBBIH",
+        "Pr\u00e9nom": "Karim",
+        "Adresse": "",
+        "Contact": "Abdelaziz"
+    },
+    {
+        "Wilaya": "ESSALHI",
+        "Nom": "Hadia",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "Amara KOURBA impasse",
+        "Contact": "0664944004"
+    },
+    {
+        "Wilaya": "GHERIB",
+        "Nom": "Imene",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "IBN SINA Annaba",
+        "Contact": "amargheribimene@gmail.com"
+    },
+    {
+        "Wilaya": "SOUISSI",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "88 logements boulevard",
+        "Contact": "0552184841"
+    },
+    {
+        "Wilaya": "Hichem",
+        "Nom": "d\u2019Afrique",
+        "Pr\u00e9nom": "bloc",
+        "Adresse": "05",
+        "Contact": "N\u00b012"
+    },
+    {
+        "Wilaya": "YAHIOUCHE",
+        "Nom": "Leila",
+        "Pr\u00e9nom": "13,",
+        "Adresse": "rue Asla",
+        "Contact": "Hocine"
+    },
+    {
+        "Wilaya": "ABDENNOUR",
+        "Nom": "Amel",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Oued Znati,",
+        "Contact": "Guelma"
+    },
+    {
+        "Wilaya": "coop",
+        "Nom": "126",
+        "Pr\u00e9nom": "logts",
+        "Adresse": "bloc 3 n",
+        "Contact": "2."
+    },
+    {
+        "Wilaya": "Guelma",
+        "Nom": "MERBOUKH",
+        "Pr\u00e9nom": "-",
+        "Adresse": "Hana EPH Oued Znati,",
+        "Contact": "Guelma"
+    },
+    {
+        "Wilaya": "ZIAYA",
+        "Nom": "Hamdene",
+        "Pr\u00e9nom": "num\u00e9ro",
+        "Adresse": "03 Bloc 07, Route de",
+        "Contact": "044464094"
+    },
+    {
+        "Wilaya": "Constantine,",
+        "Nom": "Oued",
+        "Pr\u00e9nom": "Zenati,",
+        "Adresse": "",
+        "Contact": "Hziaya@gmail.com"
+    },
+    {
+        "Wilaya": "ZOUITENE",
+        "Nom": "Meriem",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "ELOKBI, Guelma",
+        "Contact": "dr-zouitene@outlook.fr"
+    },
+    {
+        "Wilaya": "BAHLOUL",
+        "Nom": "Mounder",
+        "Pr\u00e9nom": "85",
+        "Adresse": "Cit\u00e9 Djabel wahch",
+        "Contact": "0541371257"
+    },
+    {
+        "Wilaya": "Nouvelle",
+        "Nom": "ville",
+        "Pr\u00e9nom": "UV5",
+        "Adresse": "cit\u00e9",
+        "Contact": "Talbi"
+    },
+    {
+        "Wilaya": "Nouvelle",
+        "Nom": "ville",
+        "Pr\u00e9nom": "Ali",
+        "Adresse": "Mendjeli.",
+        "Contact": "0553496729"
+    },
+    {
+        "Wilaya": "BENDJABALLAH",
+        "Nom": "Azzedine",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "110 logements Dambri.",
+        "Contact": "azzedine.bendjaballah@gmail.co"
+    },
+    {
+        "Wilaya": "BENMAGHNIA",
+        "Nom": "Rachid",
+        "Pr\u00e9nom": "45",
+        "Adresse": "rue Outi",
+        "Contact": "Mustapha"
+    },
+    {
+        "Wilaya": "BOURGHOUD",
+        "Nom": "Abderraouf",
+        "Pr\u00e9nom": "80",
+        "Adresse": "- Rue Larbi",
+        "Contact": "Ben'Mhidi"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "72",
+        "Pr\u00e9nom": "log,",
+        "Adresse": "bloc L, Zouaghi,",
+        "Contact": "0558305037"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "72",
+        "Pr\u00e9nom": "log,",
+        "Adresse": "bloc L,",
+        "Contact": "Zouaghi,"
+    },
+    {
+        "Wilaya": "Constantine",
+        "Nom": "Clinique",
+        "Pr\u00e9nom": "Massinissa",
+        "Adresse": "Cit\u00e9 des",
+        "Contact": "0661494603"
+    },
+    {
+        "Wilaya": "CHIHOUB",
+        "Nom": "Rafik",
+        "Pr\u00e9nom": "fr\u00e8res",
+        "Adresse": "spiga N130, El Khroub,",
+        "Contact": "0697650658"
+    },
+    {
+        "Wilaya": "FALEK",
+        "Nom": "Aicha",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "El Khroub",
+        "Contact": "0776446035"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "490",
+        "Pr\u00e9nom": "logements",
+        "Adresse": "bloc",
+        "Contact": "08"
+    },
+    {
+        "Wilaya": "HAOUAM",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Amir",
+        "Adresse": "N\u00b001, nouvelle ville",
+        "Contact": "Ali"
+    },
+    {
+        "Wilaya": "MADOUI",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Salah",
+        "Adresse": "Cite dakis Bt22,sidi",
+        "Contact": "mabrouk"
+    },
+    {
+        "Wilaya": "NAMOUS",
+        "Nom": "Sara",
+        "Pr\u00e9nom": "Ezzahra",
+        "Adresse": "-Zouaghi,",
+        "Contact": "0560001194"
+    },
+    {
+        "Wilaya": "REGAD",
+        "Nom": "Boubakeur",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Elbir",
+        "Contact": "regadboubaker@gmail.com"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Daksi",
+        "Pr\u00e9nom": "b\u00e2timent",
+        "Adresse": "H",
+        "Contact": "303."
+    },
+    {
+        "Wilaya": "TABET",
+        "Nom": "Imene",
+        "Pr\u00e9nom": "Constantine",
+        "Adresse": "(pr\u00e8s de la",
+        "Contact": "0555437750"
+    },
+    {
+        "Wilaya": "AIN",
+        "Nom": "GUERADE",
+        "Pr\u00e9nom": "Mohamed",
+        "Adresse": "Cit\u00e9 M\u2019salla",
+        "Contact": "025596794"
+    },
+    {
+        "Wilaya": "0555",
+        "Nom": "50",
+        "Pr\u00e9nom": "57",
+        "Adresse": "",
+        "Contact": "51"
+    },
+    {
+        "Wilaya": "GUESSOUM",
+        "Nom": "Nassima",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "",
+        "Contact": "MEDEA"
+    },
+    {
+        "Wilaya": "M\u00e9d\u00e9a",
+        "Nom": "KOUIDRI",
+        "Pr\u00e9nom": "Tahtouh,",
+        "Adresse": "",
+        "Contact": "M\u00e9d\u00e9a"
+    },
+    {
+        "Wilaya": "TAIBI",
+        "Nom": "B\u00e9ni",
+        "Pr\u00e9nom": "Slimane,",
+        "Adresse": "M\u00e9d\u00e9a",
+        "Contact": "025714461"
+    },
+    {
+        "Wilaya": "ZERGA",
+        "Nom": "Abdelmadjid",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "",
+        "Contact": "Medea"
+    },
+    {
+        "Wilaya": "Mandarins",
+        "Nom": "Bt",
+        "Pr\u00e9nom": "50",
+        "Adresse": "",
+        "Contact": "N\u00b0501"
+    },
+    {
+        "Wilaya": "R\u00e9sidence",
+        "Nom": "Chelif",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "D",
+        "Contact": "n\u00b094"
+    },
+    {
+        "Wilaya": "Mostaganem",
+        "Nom": "EL",
+        "Pr\u00e9nom": "MASCRI",
+        "Adresse": "Cit\u00e9 Ahmed zahana ex",
+        "Contact": "0698547640"
+    },
+    {
+        "Wilaya": "LAZAAR",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "R\u00e9sidence",
+        "Adresse": "la perle, Kharouba",
+        "Contact": "0774400679"
+    },
+    {
+        "Wilaya": "LOUHIBI",
+        "Nom": "Abderrahmane",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "05 juillet bloc 198",
+        "Contact": "n\u00b014"
+    },
+    {
+        "Wilaya": "Hai",
+        "Nom": "Essalem",
+        "Pr\u00e9nom": "ilot",
+        "Adresse": "E7",
+        "Contact": "N\u00b08,"
+    },
+    {
+        "Wilaya": "Bt",
+        "Nom": "le",
+        "Pr\u00e9nom": "Dahra,",
+        "Adresse": "15 avenue",
+        "Contact": "Walid"
+    },
+    {
+        "Wilaya": "YAKOUBI",
+        "Nom": "Rachida",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "5 juillet Bt D",
+        "Contact": "n\u00b016"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Elbadr",
+        "Pr\u00e9nom": "500",
+        "Adresse": "logts en",
+        "Contact": "face"
+    },
+    {
+        "Wilaya": "CHERIFI",
+        "Nom": "Khaled",
+        "Pr\u00e9nom": "Route",
+        "Adresse": "El Bordj, 300 logements",
+        "Contact": "0666601119"
+    },
+    {
+        "Wilaya": "LARIBA",
+        "Nom": "Abdennour",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Ein Elmelh, Msila",
+        "Contact": "0667707662"
+    },
+    {
+        "Wilaya": "MEBARKI",
+        "Nom": "Djeffal",
+        "Pr\u00e9nom": "Cite",
+        "Adresse": "05 juillet Sidi Aissa,",
+        "Contact": "Msila"
+    },
+    {
+        "Wilaya": "OTHMANI",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "150/9",
+        "Adresse": "Hai El Badr, Bou Saada",
+        "Contact": "035459113"
+    },
+    {
+        "Wilaya": "RAHOU",
+        "Nom": "Hanene",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Zahraoui,",
+        "Contact": "M'sila"
+    },
+    {
+        "Wilaya": "YAHIAOUI",
+        "Nom": "Rachid",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "40 logts, M\u2019sila",
+        "Contact": "0557225993"
+    },
+    {
+        "Wilaya": "BENZAROURA",
+        "Nom": "Nadjet",
+        "Pr\u00e9nom": "51",
+        "Adresse": "rue Cheikh Bouras Baba Ali",
+        "Contact": "045710487"
+    },
+    {
+        "Wilaya": "BOUGHENAYA",
+        "Nom": "Said",
+        "Pr\u00e9nom": "Nasreddine",
+        "Adresse": "7 rue Zighout Youcef, Sig",
+        "Contact": "0664812453"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "30",
+        "Pr\u00e9nom": "logements,",
+        "Adresse": "rue Rih",
+        "Contact": "Safi,"
+    },
+    {
+        "Wilaya": "MOKHTAR",
+        "Nom": "KHERROUBI",
+        "Pr\u00e9nom": "Khadidja",
+        "Adresse": "",
+        "Contact": "0551371993"
+    },
+    {
+        "Wilaya": "Immeuble",
+        "Nom": "de",
+        "Pr\u00e9nom": "la",
+        "Adresse": "",
+        "Contact": "pharmacie"
+    },
+    {
+        "Wilaya": "Ghenam",
+        "Nom": "(2",
+        "Pr\u00e9nom": "\u00e8me",
+        "Adresse": "\u00e9tage),",
+        "Contact": "0697041629"
+    },
+    {
+        "Wilaya": "Abdennacer,",
+        "Nom": "zone",
+        "Pr\u00e9nom": "8,",
+        "Adresse": "",
+        "Contact": "Mascara"
+    },
+    {
+        "Wilaya": "Zone",
+        "Nom": "8,",
+        "Pr\u00e9nom": "08",
+        "Adresse": "boulevard",
+        "Contact": "Djamel"
+    },
+    {
+        "Wilaya": "OSMANI",
+        "Nom": "Abdelaziz",
+        "Pr\u00e9nom": "Abdenassar",
+        "Adresse": "\u00e0 c\u00f4t\u00e9 du stade",
+        "Contact": "0795004837"
+    },
+    {
+        "Wilaya": "ADA",
+        "Nom": "Cit\u00e9",
+        "Pr\u00e9nom": "Ennasr",
+        "Adresse": "Elkhafji",
+        "Contact": "0659515142"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "de",
+        "Pr\u00e9nom": "la",
+        "Adresse": "r\u00e9volution en",
+        "Contact": "face"
+    },
+    {
+        "Wilaya": "BOUKHRIS",
+        "Nom": "Taha",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Mohamed Boudiaf",
+        "Contact": "0661380368"
+    },
+    {
+        "Wilaya": "M'hamdia",
+        "Nom": "Asma",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Mohamed",
+        "Contact": "Boudiaf"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Boumara",
+        "Pr\u00e9nom": "Abdelmadjid,",
+        "Adresse": "",
+        "Contact": "0669900704"
+    },
+    {
+        "Wilaya": "Beni",
+        "Nom": "Thour,",
+        "Pr\u00e9nom": "Ouargla",
+        "Adresse": "",
+        "Contact": "assadnecir@gmail.com"
+    },
+    {
+        "Wilaya": "TIOURA",
+        "Nom": "Moufida",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "de la Palestine",
+        "Contact": "B\u00e9nithour"
+    },
+    {
+        "Wilaya": "ABBAS",
+        "Nom": "Fatima",
+        "Pr\u00e9nom": "N\u00b03,",
+        "Adresse": "rue Mekki Lakhdar Es Senia",
+        "Contact": "0542120260"
+    },
+    {
+        "Wilaya": "Hai",
+        "Nom": "El",
+        "Pr\u00e9nom": "Emir",
+        "Adresse": "angle Rue Elys?e",
+        "Contact": "Reclus"
+    },
+    {
+        "Wilaya": "AIT",
+        "Nom": "AISSA",
+        "Pr\u00e9nom": "Karim",
+        "Adresse": "",
+        "Contact": "041331114"
+    },
+    {
+        "Wilaya": "Bt",
+        "Nom": "n?",
+        "Pr\u00e9nom": "23",
+        "Adresse": "2?me",
+        "Contact": "Etage"
+    },
+    {
+        "Wilaya": "AIT",
+        "Nom": "BELKACEM",
+        "Pr\u00e9nom": "Rachida",
+        "Adresse": "14 RUE AMEUR BRAHIM",
+        "Contact": "041333080"
+    },
+    {
+        "Wilaya": "Oran",
+        "Nom": "ATTAR",
+        "Pr\u00e9nom": "Ibrahim",
+        "Adresse": "Cit\u00e9 Bouamama, El Hassi,",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "Medjber",
+        "Nom": "Tami",
+        "Pr\u00e9nom": "-Ain",
+        "Adresse": "El Turk-",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "87",
+        "Nom": "rue",
+        "Pr\u00e9nom": "Mohamed",
+        "Adresse": "Boudiaf (ex rue",
+        "Contact": "041384540"
+    },
+    {
+        "Wilaya": "AMARA",
+        "Nom": "AID",
+        "Pr\u00e9nom": "Setti",
+        "Adresse": "",
+        "Contact": "Khadidja"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "de",
+        "Pr\u00e9nom": "Mostaganem",
+        "Adresse": "Bt 87 n?",
+        "Contact": "03"
+    },
+    {
+        "Wilaya": "AMARA",
+        "Nom": "SETTI",
+        "Pr\u00e9nom": "Khadidja",
+        "Adresse": "",
+        "Contact": "0559355945"
+    },
+    {
+        "Wilaya": "BELARBI",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "287 usto, Oran",
+        "Contact": "0550366783"
+    },
+    {
+        "Wilaya": "BELKAHLA",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Reda",
+        "Adresse": "CHU",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "BELKHEIR",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "12",
+        "Adresse": "AV CHAKIB ARSLANE CHOUPOT",
+        "Contact": "041364320"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Ibn",
+        "Pr\u00e9nom": "Rochd",
+        "Adresse": "1245 logt, Bat 134",
+        "Contact": "041821307"
+    },
+    {
+        "Wilaya": "N",
+        "Nom": "36",
+        "Pr\u00e9nom": "Av",
+        "Adresse": "CHAKIB ARSLANE",
+        "Contact": "HAI"
+    },
+    {
+        "Wilaya": "112",
+        "Nom": "Cooperative",
+        "Pr\u00e9nom": "du",
+        "Adresse": "18 Fevrier",
+        "Contact": "St"
+    },
+    {
+        "Wilaya": "BERAHOU",
+        "Nom": "Mourad",
+        "Pr\u00e9nom": "02",
+        "Adresse": "RUE ZAHAF DJILALI ST",
+        "Contact": "EUGENE"
+    },
+    {
+        "Wilaya": "BOUKRISSA",
+        "Nom": "Samia",
+        "Pr\u00e9nom": "Hai",
+        "Adresse": "El Yasmine Ct 50 Logts Bt",
+        "Contact": "C/03"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Bendahou",
+        "Pr\u00e9nom": "Abdelkader",
+        "Adresse": "N\u00b002",
+        "Contact": "1er"
+    },
+    {
+        "Wilaya": "Hai",
+        "Nom": "Khemisti",
+        "Pr\u00e9nom": "lot",
+        "Adresse": "275 N\u00b0 240, Bir",
+        "Contact": "El"
+    },
+    {
+        "Wilaya": "EPH",
+        "Nom": "El",
+        "Pr\u00e9nom": "Mohgoun",
+        "Adresse": "Nekkache",
+        "Contact": "0556032648"
+    },
+    {
+        "Wilaya": "FERDJ",
+        "Nom": "ELLAH",
+        "Pr\u00e9nom": "Mohamed",
+        "Adresse": "02 BD ZABANA",
+        "Contact": "041406017"
+    },
+    {
+        "Wilaya": "GHENIM",
+        "Nom": "Mokhtar",
+        "Pr\u00e9nom": "05",
+        "Adresse": "RUE DEIFFALLAH DJILALI",
+        "Contact": "041393391"
+    },
+    {
+        "Wilaya": "HAMADI",
+        "Nom": "Karim",
+        "Pr\u00e9nom": "Ct",
+        "Adresse": "DAR EL HAYAT Bt C 04",
+        "Contact": "041325373"
+    },
+    {
+        "Wilaya": "HAMANI",
+        "Nom": "Soumia",
+        "Pr\u00e9nom": "20",
+        "Adresse": "rue des fr\u00e8res",
+        "Contact": "Niti"
+    },
+    {
+        "Wilaya": "03",
+        "Nom": "RUE",
+        "Pr\u00e9nom": "SADEK",
+        "Adresse": "HADJ HAI",
+        "Contact": "EL"
+    },
+    {
+        "Wilaya": "MADJARI",
+        "Nom": "Kamel",
+        "Pr\u00e9nom": "02",
+        "Adresse": "RUE MIRAUCHAUX",
+        "Contact": "041401965"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "100",
+        "Pr\u00e9nom": "logements",
+        "Adresse": "",
+        "Contact": "LPA"
+    },
+    {
+        "Wilaya": "MAMAR",
+        "Nom": "BELGAID",
+        "Pr\u00e9nom": "ABC",
+        "Adresse": "PROMO BLOC A",
+        "Contact": "0669520044"
+    },
+    {
+        "Wilaya": "1e",
+        "Nom": "\u00e9tage",
+        "Pr\u00e9nom": "Bir",
+        "Adresse": "Eljir,",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "boulevard",
+        "Nom": "8",
+        "Pr\u00e9nom": "mars",
+        "Adresse": "",
+        "Contact": "angle"
+    },
+    {
+        "Wilaya": "MERAH",
+        "Nom": "Fatima",
+        "Pr\u00e9nom": "Zaghloule",
+        "Adresse": "num\u00e9ro 2 Es",
+        "Contact": "Senia"
+    },
+    {
+        "Wilaya": "Hai",
+        "Nom": "El",
+        "Pr\u00e9nom": "Wafaa",
+        "Adresse": "510 Logts Bt 35",
+        "Contact": "Ilot"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "des",
+        "Pr\u00e9nom": "90",
+        "Adresse": "logts, bloc C20/A",
+        "Contact": "0659405016"
+    },
+    {
+        "Wilaya": "MOKHTAR",
+        "Nom": "KARROUBI",
+        "Pr\u00e9nom": "Khadidja",
+        "Adresse": "n\u00b008, 1er \u00e9tage, Hai Khemesti",
+        "Contact": "mokhtarkharroubikhadidja@gm"
+    },
+    {
+        "Wilaya": "Akid",
+        "Nom": "Lotfi,",
+        "Pr\u00e9nom": "Oran",
+        "Adresse": "",
+        "Contact": "ail.com"
+    },
+    {
+        "Wilaya": "Bloc",
+        "Nom": "117,",
+        "Pr\u00e9nom": "premier",
+        "Adresse": "",
+        "Contact": "\u00e9tage,"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "160",
+        "Pr\u00e9nom": "lgts",
+        "Adresse": "Les",
+        "Contact": "Pyramides."
+    },
+    {
+        "Wilaya": "Bloc",
+        "Nom": "01.",
+        "Pr\u00e9nom": "USTO.",
+        "Adresse": "Bir El",
+        "Contact": "Djir"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "El",
+        "Pr\u00e9nom": "Khaldia",
+        "Adresse": "angle",
+        "Contact": "rue"
+    },
+    {
+        "Wilaya": "savignon",
+        "Nom": "et",
+        "Pr\u00e9nom": "rue",
+        "Adresse": "chapirto bloc",
+        "Contact": "0561359339"
+    },
+    {
+        "Wilaya": "ilot",
+        "Nom": "A",
+        "Pr\u00e9nom": "1er",
+        "Adresse": "\u00e9tage \u00e0 c\u00f4t\u00e9 de la",
+        "Contact": "oukasislam22@gmail.com"
+    },
+    {
+        "Wilaya": "clinique",
+        "Nom": "El",
+        "Pr\u00e9nom": "Mechouar.",
+        "Adresse": "",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "44",
+        "Nom": "BD",
+        "Pr\u00e9nom": "ADDA",
+        "Adresse": "BENAOUDA",
+        "Contact": "HAI"
+    },
+    {
+        "Wilaya": "OULD",
+        "Nom": "KADI",
+        "Pr\u00e9nom": "Belmorsli",
+        "Adresse": "",
+        "Contact": "041364546"
+    },
+    {
+        "Wilaya": "RAHAL",
+        "Nom": "Kamel",
+        "Pr\u00e9nom": "54",
+        "Adresse": "BD BENZERDJZB",
+        "Contact": "041405112"
+    },
+    {
+        "Wilaya": "SAFIR",
+        "Nom": "Aoumria",
+        "Pr\u00e9nom": "Chu",
+        "Adresse": "",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "SAMSAR",
+        "Nom": "Naouel",
+        "Pr\u00e9nom": "CHU",
+        "Adresse": "",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "Bt",
+        "Nom": "13C",
+        "Pr\u00e9nom": "(1\u00e9r",
+        "Adresse": "Etage)",
+        "Contact": "Cit\u00e9"
+    },
+    {
+        "Wilaya": "SELOUM",
+        "Nom": "Khadidja",
+        "Pr\u00e9nom": "Nassim",
+        "Adresse": "El Bahr Lot E3 Bt",
+        "Contact": "041407053"
+    },
+    {
+        "Wilaya": "TAHAR",
+        "Nom": "BERRABAH",
+        "Pr\u00e9nom": "Aicha",
+        "Adresse": "r\u00e9sidence Les Belles Du",
+        "Contact": "Jour"
+    },
+    {
+        "Wilaya": "Plaza",
+        "Nom": "Bt",
+        "Pr\u00e9nom": "A.",
+        "Adresse": "",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "YOUCEF",
+        "Nom": "ACHIRA",
+        "Pr\u00e9nom": "Mahfoud",
+        "Adresse": "HMRU",
+        "Contact": "Oran"
+    },
+    {
+        "Wilaya": "ZAOUI",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "84",
+        "Adresse": "RUE DE MOSTAGANEM",
+        "Contact": "041411269"
+    },
+    {
+        "Wilaya": "47",
+        "Nom": "Rue",
+        "Pr\u00e9nom": "des",
+        "Adresse": "freres Niati",
+        "Contact": "Hai"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "des",
+        "Pr\u00e9nom": "160",
+        "Adresse": "Lgts",
+        "Contact": "les"
+    },
+    {
+        "Wilaya": "ZEHHAF",
+        "Nom": "Fatiha",
+        "Pr\u00e9nom": "pyramides",
+        "Adresse": "Bloc 01",
+        "Contact": "USTO."
+    },
+    {
+        "Wilaya": "BOUSMAHA",
+        "Nom": "Abdessamed",
+        "Pr\u00e9nom": "Lib\u00e9ral",
+        "Adresse": "",
+        "Contact": "0557744773"
+    },
+    {
+        "Wilaya": "Bayadh",
+        "Nom": "DJENAN",
+        "Pr\u00e9nom": "Khadra",
+        "Adresse": "EPH El",
+        "Contact": "bayad"
+    },
+    {
+        "Wilaya": "SAID",
+        "Nom": "Rihane",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "El bayad",
+        "Contact": "renoophta@gmail.com"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "500",
+        "Pr\u00e9nom": "log",
+        "Adresse": "Bt 1 n1. Bordj",
+        "Contact": "035747502"
+    },
+    {
+        "Wilaya": "Bordj",
+        "Nom": "Bou",
+        "Pr\u00e9nom": "Arreridj",
+        "Adresse": "MANAA Chouki EPH Medjana",
+        "Contact": "0672461565"
+    },
+    {
+        "Wilaya": "Elkoucha,",
+        "Nom": "rue",
+        "Pr\u00e9nom": "de",
+        "Adresse": "Zemmora,",
+        "Contact": "0672575396"
+    },
+    {
+        "Wilaya": "Bordj",
+        "Nom": "Bou",
+        "Pr\u00e9nom": "Arreridj",
+        "Adresse": "",
+        "Contact": "zoghbigastro@gmail.com"
+    },
+    {
+        "Wilaya": "BAHAR",
+        "Nom": "Said",
+        "Pr\u00e9nom": "Tatareg",
+        "Adresse": "- Bloc 13 - N\u00b004",
+        "Contact": "-"
+    },
+    {
+        "Wilaya": "BENAHMED",
+        "Nom": "Nadjet",
+        "Pr\u00e9nom": "EPSP",
+        "Adresse": "Boumerdes,",
+        "Contact": "KEK"
+    },
+    {
+        "Wilaya": "Boumerd\u00e8s",
+        "Nom": "BOUDJELI",
+        "Pr\u00e9nom": "Mohamed",
+        "Adresse": "Ouali Cit\u00e9 des 96 LOGTS (Gallet),",
+        "Contact": "0554120860"
+    },
+    {
+        "Wilaya": "Cite",
+        "Nom": "20",
+        "Pr\u00e9nom": "Aout",
+        "Adresse": "n 12",
+        "Contact": "ouled"
+    },
+    {
+        "Wilaya": "Bat",
+        "Nom": "42A2",
+        "Pr\u00e9nom": "cit\u00e9",
+        "Adresse": "1406 logt (Ibn",
+        "Contact": "024793233"
+    },
+    {
+        "Wilaya": "BELKACEM",
+        "Nom": "BOUZIDA",
+        "Pr\u00e9nom": "Anfel",
+        "Adresse": "EPH Amir Abd Kader Besbes",
+        "Contact": "0674848257"
+    },
+    {
+        "Wilaya": "El",
+        "Nom": "Taref",
+        "Pr\u00e9nom": "GOHTARI",
+        "Adresse": "Aimen EPH El",
+        "Contact": "Taref"
+    },
+    {
+        "Wilaya": "SAADI",
+        "Nom": "Nawal",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "El",
+        "Contact": "Kala"
+    },
+    {
+        "Wilaya": "Tindouf",
+        "Nom": "BENSLIMANE",
+        "Pr\u00e9nom": "Aicha",
+        "Adresse": "H\u00f4pital militaire de",
+        "Contact": "Tindouf"
+    },
+    {
+        "Wilaya": "BENMOUSSA",
+        "Nom": "Hadj",
+        "Pr\u00e9nom": "Mohamed",
+        "Adresse": "Cit\u00e9 320 logements, Bloc Z 02",
+        "Contact": "N01"
+    },
+    {
+        "Wilaya": "BOULENOUAR",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "El",
+        "Adresse": "Hadj N\u00b0193, 211",
+        "Contact": "lots"
+    },
+    {
+        "Wilaya": "El",
+        "Nom": "Oued",
+        "Pr\u00e9nom": "BECHIRI",
+        "Adresse": "Abdelkader Cit\u00e9 17 octobre, El",
+        "Contact": "Oued"
+    },
+    {
+        "Wilaya": "BOUZOUAYED",
+        "Nom": "Othmane",
+        "Pr\u00e9nom": "El",
+        "Adresse": "Meghir, El Oued",
+        "Contact": "0661350832"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "belle",
+        "Pr\u00e9nom": "vue",
+        "Adresse": "(pas loin de bank",
+        "Contact": "0673817029"
+    },
+    {
+        "Wilaya": "KHELEF",
+        "Nom": "Mounir",
+        "Pr\u00e9nom": "AGB",
+        "Adresse": "et le si\u00e8ge de la wilaya) El",
+        "Contact": "032110738"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Djadla,",
+        "Pr\u00e9nom": "El",
+        "Adresse": "Oued. (pas loin",
+        "Contact": "de"
+    },
+    {
+        "Wilaya": "Clinique",
+        "Nom": "Elbalssem",
+        "Pr\u00e9nom": "Chafi,",
+        "Adresse": "rue",
+        "Contact": "0550042270"
+    },
+    {
+        "Wilaya": "DJABRI",
+        "Nom": "Nour",
+        "Pr\u00e9nom": "Khenchela",
+        "Adresse": "",
+        "Contact": "0664994531"
+    },
+    {
+        "Wilaya": "MEBARKIA",
+        "Nom": "Sofiane",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "belle vue,",
+        "Contact": "Khenchela"
+    },
+    {
+        "Wilaya": "BOUARICHA",
+        "Nom": "Billel",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "",
+        "Contact": "Sedrata"
+    },
+    {
+        "Wilaya": "BOULARES",
+        "Nom": "RAFIK",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Ibn Rochd Souk",
+        "Contact": "Ahras"
+    },
+    {
+        "Wilaya": "RN",
+        "Nom": "16",
+        "Pr\u00e9nom": "lotissement",
+        "Adresse": "196 1er",
+        "Contact": "\u00e9tage"
+    },
+    {
+        "Wilaya": "Souk",
+        "Nom": "Ahras",
+        "Pr\u00e9nom": "BOUTAMINA",
+        "Adresse": "Maimouna",
+        "Contact": "0670604100"
+    },
+    {
+        "Wilaya": "branchement",
+        "Nom": "108",
+        "Pr\u00e9nom": "Souk",
+        "Adresse": "",
+        "Contact": "Ahras"
+    },
+    {
+        "Wilaya": "Hospital",
+        "Nom": "Houari",
+        "Pr\u00e9nom": "Boumediene",
+        "Adresse": "",
+        "Contact": "0661288813"
+    },
+    {
+        "Wilaya": "TAYAA",
+        "Nom": "Okba",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "Ibn Rochd Souk",
+        "Contact": "Ahras"
+    },
+    {
+        "Wilaya": "07",
+        "Nom": "rue",
+        "Pr\u00e9nom": "d\u2019Alger,",
+        "Adresse": "2e \u00e9tage. Kolea,",
+        "Contact": "0562892013"
+    },
+    {
+        "Wilaya": "Tipaza",
+        "Nom": "BENHASSINE",
+        "Pr\u00e9nom": "Nassim",
+        "Adresse": "EPH Kolea / EPH Tipaza",
+        "Contact": "Nbenhassine@gmail.com"
+    },
+    {
+        "Wilaya": "BOUTIH",
+        "Nom": "Nassima",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "Mustapha Benboulaid Kolea",
+        "Contact": "nassimabout75@gmail.com"
+    },
+    {
+        "Wilaya": "Cite",
+        "Nom": "Houari",
+        "Pr\u00e9nom": "Boumediene",
+        "Adresse": "",
+        "Contact": "Rue"
+    },
+    {
+        "Wilaya": "BOUABID",
+        "Nom": "Imad",
+        "Pr\u00e9nom": "Eddine",
+        "Adresse": "de Ferdjaoua,",
+        "Contact": "Chelghoum"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "500",
+        "Pr\u00e9nom": "logements",
+        "Adresse": "",
+        "Contact": "Num"
+    },
+    {
+        "Wilaya": "Hopital",
+        "Nom": "Mohamed",
+        "Pr\u00e9nom": "Meddahi",
+        "Adresse": "",
+        "Contact": "0657878884"
+    },
+    {
+        "Wilaya": "Mila",
+        "Nom": "EPH",
+        "Pr\u00e9nom": "Houari",
+        "Adresse": "Boumediene",
+        "Contact": "\u00e0"
+    },
+    {
+        "Wilaya": "SALHI",
+        "Nom": "Meriem",
+        "Pr\u00e9nom": "EHS",
+        "Adresse": "Elathmania Mila",
+        "Contact": "0794471655"
+    },
+    {
+        "Wilaya": "EPH",
+        "Nom": "Houari",
+        "Pr\u00e9nom": "Boumediene",
+        "Adresse": "",
+        "Contact": "\u00e0"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Ahmed",
+        "Pr\u00e9nom": "Boussekine,",
+        "Adresse": "Ferdjioua,",
+        "Contact": "0661154911"
+    },
+    {
+        "Wilaya": "ZAREZI",
+        "Nom": "Moussa",
+        "Pr\u00e9nom": "Mila",
+        "Adresse": "",
+        "Contact": "moussa.gast@gmail.com"
+    },
+    {
+        "Wilaya": "BELLATRECHE",
+        "Nom": "Yasmine",
+        "Pr\u00e9nom": "Ain",
+        "Adresse": "defla ville",
+        "Contact": "ybellatreche@gmail.com"
+    },
+    {
+        "Wilaya": "MEZIANE",
+        "Nom": "Laid",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Houria bloc E3",
+        "Contact": "027669706"
+    },
+    {
+        "Wilaya": "RAHEM",
+        "Nom": "Nasreddine",
+        "Pr\u00e9nom": "CITE",
+        "Adresse": "HOURIA BAT",
+        "Contact": "E2"
+    },
+    {
+        "Wilaya": "SID",
+        "Nom": "Mustapha",
+        "Pr\u00e9nom": "Ain",
+        "Adresse": "Defla",
+        "Contact": "027603663"
+    },
+    {
+        "Wilaya": "BOUARFA",
+        "Nom": "Amine",
+        "Pr\u00e9nom": "EPH",
+        "Adresse": "fr\u00e8re Rahmani",
+        "Contact": "Mecheria"
+    },
+    {
+        "Wilaya": "22",
+        "Nom": "lots",
+        "Pr\u00e9nom": "Beni",
+        "Adresse": "Khaled, B03 2e",
+        "Contact": "\u00e9tage,"
+    },
+    {
+        "Wilaya": "BEN",
+        "Nom": "AMAR",
+        "Pr\u00e9nom": "Youcef",
+        "Adresse": "Route Boudjaza, El Amria",
+        "Contact": "0790524244"
+    },
+    {
+        "Wilaya": "OUAMRI",
+        "Nom": "Abdelnasser",
+        "Pr\u00e9nom": "Bt",
+        "Adresse": "E n 260 cite des 1000",
+        "Contact": "logts"
+    },
+    {
+        "Wilaya": "N",
+        "Nom": "16",
+        "Pr\u00e9nom": "rue",
+        "Adresse": "des fr\u00e8res Benfissa ex",
+        "Contact": "0657293414"
+    },
+    {
+        "Wilaya": "saint",
+        "Nom": "Rock.",
+        "Pr\u00e9nom": "Ain",
+        "Adresse": "T\u00e9mouchent",
+        "Contact": "drtagrara@gmail.com"
+    },
+    {
+        "Wilaya": "Gharda\u00efa",
+        "Nom": "OURARI",
+        "Pr\u00e9nom": "Salem",
+        "Adresse": "EPH",
+        "Contact": "Ghardaia"
+    },
+    {
+        "Wilaya": "TALEB",
+        "Nom": "BAHMED",
+        "Pr\u00e9nom": "Hammou",
+        "Adresse": "EPH Ghardaia",
+        "Contact": "0659916491"
+    },
+    {
+        "Wilaya": "Rue",
+        "Nom": "Algeciras,",
+        "Pr\u00e9nom": "N\u00b001,",
+        "Adresse": "En face de",
+        "Contact": "la"
+    },
+    {
+        "Wilaya": "MALAH",
+        "Nom": "Abdelhak",
+        "Pr\u00e9nom": "Clinique",
+        "Adresse": "El Oualid,",
+        "Contact": "Relizane"
+    },
+    {
+        "Wilaya": "MEDJAHED",
+        "Nom": "Farid",
+        "Pr\u00e9nom": "Rue",
+        "Adresse": "El Hadj",
+        "Contact": "Aroussi"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "100",
+        "Pr\u00e9nom": "log",
+        "Adresse": "N 01, route",
+        "Contact": "Belassel,"
+    },
+    {
+        "Wilaya": "MEDJEDED",
+        "Nom": "Amina",
+        "Pr\u00e9nom": "Meriem",
+        "Adresse": "",
+        "Contact": "0776557432"
+    },
+    {
+        "Wilaya": "Cit\u00e9",
+        "Nom": "Zohra",
+        "Pr\u00e9nom": "bloc",
+        "Adresse": "310 n\u00b002,",
+        "Contact": "029681774"
+    },
+    {
+        "Wilaya": "TEDDAR",
+        "Nom": "Noureddine",
+        "Pr\u00e9nom": "Cit\u00e9",
+        "Adresse": "Elnakhil 1",
+        "Contact": "Touggourt"
+    },
+    {
+        "Wilaya": "M\u00e9decins",
+        "Nom": "exer\u00e7ant",
+        "Pr\u00e9nom": "\u00e0",
+        "Adresse": "",
+        "Contact": "l\u2019\u00e9tranger"
+    },
+    {
+        "Wilaya": "Pays",
+        "Nom": "Nom",
+        "Pr\u00e9nom": "Pr\u00e9nom",
+        "Adresse": "Lieu de travail N\u00b0 t\u00e9l\u00e9phone /",
+        "Contact": "email"
+    },
+    {
+        "Wilaya": "BOUBEKEUR",
+        "Nom": "Raouf",
+        "Pr\u00e9nom": "universitaire",
+        "Adresse": "d\u2019Orl\u00e9ans",
+        "Contact": "Drboubkeur@gmail.com"
+    },
+    {
+        "Wilaya": "KELA\u00cf",
+        "Nom": "Nabil",
+        "Pr\u00e9nom": "Centre",
+        "Adresse": "hospitalier le Mans",
+        "Contact": "nabil2506@Yahoo.fr"
+    },
+    {
+        "Wilaya": "France",
+        "Nom": "SAIS",
+        "Pr\u00e9nom": "Abdeldjalil",
+        "Adresse": "Centre hospitalier de Laon",
+        "Contact": "saisabdeldjalil14@gmail.com"
+    },
+    {
+        "Wilaya": "Groupe",
+        "Nom": "Hospitalier",
+        "Pr\u00e9nom": "Public",
+        "Adresse": "du",
+        "Contact": "Sud"
+    },
+    {
+        "Wilaya": "Centre",
+        "Nom": "hospitalier",
+        "Pr\u00e9nom": "de",
+        "Adresse": "Boulogne",
+        "Contact": "+33628059870"
+    },
+    {
+        "Wilaya": "TRIKI",
+        "Nom": "Ismail",
+        "Pr\u00e9nom": "sur",
+        "Adresse": "Mer",
+        "Contact": "i.triki@ch-boulogne.fr"
+    },
+    {
+        "Wilaya": "Mediclinic",
+        "Nom": "Airport",
+        "Pr\u00e9nom": "Road",
+        "Adresse": "",
+        "Contact": "Abu"
+    },
+    {
+        "Wilaya": "\u00c9mirats",
+        "Nom": "arabes",
+        "Pr\u00e9nom": "unis",
+        "Adresse": "GHANDIR Ainad Dhabi UAE",
+        "Contact": "ainad.ghandir@gmail.com"
+    },
+    {
+        "Wilaya": "Allemagne",
+        "Nom": "DENECHE",
+        "Pr\u00e9nom": "Oussama",
+        "Adresse": "Medius klinik N\u00fcrtingen",
+        "Contact": "oussama-deneche@hotmail.com"
+    }
+]
