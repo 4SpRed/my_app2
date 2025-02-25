@@ -86,6 +86,59 @@ app.get("/search", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+// 🔎 **Route `/autocomplete` améliorée pour chercher dans tout le nom**
+app.get("/autocomplete", async (req, res) => {
+  try {
+    if (!db) {
+      return res.status(500).json({ error: "Connexion à la base de données non établie" });
+    }
+
+    const { query } = req.query;
+    if (!query) return res.json([]);
+
+    const suggestions = await db.collection("medecins")
+      .find({
+        $or: [
+          { Nom: { $regex: query, $options: "i" } },  // Recherche n'importe où dans le nom
+          { Prénom: { $regex: query, $options: "i" } } // Recherche aussi dans le prénom
+        ]
+      })
+      .project({ Nom: 1, Prénom: 1, Spécialité: 1, Wilaya: 1, Photo: 1 }) // Sélectionner les champs utiles
+      .limit(5)
+      .toArray();
+
+    res.json(suggestions);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get("/autocomplete-location", async (req, res) => {
+  try {
+    if (!db) {
+      return res.status(500).json({ error: "Connexion à la base de données non établie" });
+    }
+
+    const { query } = req.query;
+    if (!query) return res.json([]);
+
+    // Recherche par wilaya ou ville en fonction de la saisie
+    const suggestions = await db.collection("locations")
+      .find({ $or: [
+        { Wilaya: { $regex: `^${query}`, $options: "i" } },
+        { Ville: { $regex: `^${query}`, $options: "i" } }
+      ]})
+      .limit(5)
+      .toArray();
+
+    res.json(suggestions.map(loc => loc.Wilaya || loc.Ville)); // Retourne seulement les noms
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+
+
 
 // 🚀 **Démarrage du serveur**
 app.listen(port, () => {
