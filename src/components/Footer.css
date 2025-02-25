@@ -1,7 +1,7 @@
 .footer {
   text-align: center;
-  padding: 10px;
-  background: #007bff;
+  padding: 2px;
+  background: linear-gradient(45deg, #1e90ff, #00bfff); /* Dégradé */
   color: white;
   font-size: 14px;
   position: fixed;

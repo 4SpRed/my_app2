@@ -12,6 +12,18 @@
   justify-content: center;
   gap: 10px;
 }
+/* ✅ Assurer un bon espacement sous le header */
+.search-bar-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background: #f4f6f9; /* Fond léger pour démarquer la section */
+  position: relative;
+  top: 80px; /* Ajuster selon la hauteur du header */
+  z-index: 999;
+}
+
 /* Champs de recherche */
 .search-bar input {
   padding: 10px;

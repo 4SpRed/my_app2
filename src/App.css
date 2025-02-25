@@ -66,6 +66,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 .query-input {
   border-radius: 25px 0 0 25px;
   width: 300px;
@@ -184,12 +185,24 @@ color: #555;
   min-height: 100vh; /* Fait en sorte que l'écran soit pris en entier */
 }
 
-/* Le contenu principal doit prendre tout l'espace restant */
-.main-content {
-  flex: 1; /* Permet d'étirer le contenu */
-  text-align: center;
-  padding: 20px;
+/* ✅ Conteneur de la barre de recherche sous le menu */
+
+
+.search-bar-container {
+  width: 102%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  padding-top: 77px;
+  background: #f4f6f9; /* Fond léger pour démarquer la section */
+  position: relative;
+  z-index: 999;
+  min-height: 200px; /* Permet d'éviter que la barre change de position */
 }
+
+
+
+
 
 
 

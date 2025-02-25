@@ -8,6 +8,7 @@ function Login() {
   return (
     <div className="login-container">
       <div className="login-box">
+        
         <h2>Connexion</h2>
         <label>Email :</label>
         <input type="email" placeholder="Entrez votre email" />

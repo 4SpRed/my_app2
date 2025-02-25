@@ -1,16 +1,14 @@
+
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Header.css";
-
 const Header = () => {
   const navigate = useNavigate();
-
   // Fonction pour actualiser la page
   const handleHomeClick = () => {
     navigate("/"); // Redirige vers la home
     window.location.reload(); // Force le rafraîchissement
   };
-
   return (
     <header className="header">
       <div className="logo">
@@ -27,5 +25,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;
