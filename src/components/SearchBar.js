@@ -1,17 +1,15 @@
+
 import React, { useState, useEffect, useRef } from "react";
 import "./SearchBar.css";
-
 const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
   const [suggestions, setSuggestions] = useState([]);
   const [locationSuggestions, setLocationSuggestions] = useState([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const [selectedLocationIndex, setSelectedLocationIndex] = useState(-1);
-
   const suggestionBoxRef = useRef(null);
   const locationBoxRef = useRef(null);
   const listRef = useRef(null);
   const locationInputRef = useRef(null);
-
   // Fetch doctor suggestions
   useEffect(() => {
     if (query.length < 2) {
@@ -23,7 +21,6 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
       .then((data) => setSuggestions(data))
       .catch(() => setSuggestions([]));
   }, [query]);
-
   // Fetch location suggestions
   useEffect(() => {
     if (location.length < 2) {
@@ -35,7 +32,6 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
       .then((data) => setLocationSuggestions(data))
       .catch(() => setLocationSuggestions([]));
   }, [location]);
-
   // Scroll into view when navigating with arrows
   const scrollIntoView = (index, listRef) => {
     if (listRef.current) {
@@ -45,7 +41,6 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
       }
     }
   };
-
   // Handle keyboard navigation and selection
   const handleKeyDown = (e, isLocation = false) => {
     const list = isLocation ? locationSuggestions : suggestions;
@@ -53,7 +48,6 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
     const setSelectedIdx = isLocation ? setSelectedLocationIndex : setSelectedIndex;
     const setValue = isLocation ? setLocation : setQuery;
     const clearSuggestions = isLocation ? setLocationSuggestions : setSuggestions;
-
     if (list.length > 0) {
       if (e.key === "ArrowDown") {
         setSelectedIdx((prev) => {
@@ -72,12 +66,10 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
         if (selectedIdx >= 0) {
           setValue(list[selectedIdx].Nom || list[selectedIdx]);
           setSelectedIdx(-1);
-
           // ✅ Ajout d'un setTimeout pour forcer la fermeture après une sélection
           setTimeout(() => {
             clearSuggestions([]);
           }, 50);
-
           // ✅ Passer au champ suivant après sélection
           if (!isLocation) {
             setTimeout(() => locationInputRef.current.focus(), 100);
@@ -86,7 +78,6 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
       }
     }
   };
-
   // Handle click selection
   const handleSelect = (value, isLocation = false) => {
     if (isLocation) {
@@ -100,7 +91,6 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
       setTimeout(() => locationInputRef.current.focus(), 100); // ✅ Passage au champ "Où ?"
     }
   };
-
   // Close suggestions when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -115,7 +105,6 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
   return (
     <div className="search-bar-section">
       <h2 className="search-title">Trouvez votre médecin en un clic</h2>
@@ -155,7 +144,6 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
             </ul>
           )}
         </div>
-
         {/* Champ de recherche pour la localisation */}
         <div className="search-input-container" ref={locationBoxRef}>
           <input
@@ -183,12 +171,10 @@ const SearchBar = ({ query, setQuery, location, setLocation, onSearch }) => {
             </ul>
           )}
         </div>
-
         {/* Bouton de recherche */}
         <button className="search-button" onClick={onSearch}>Rechercher</button>
       </div>
     </div>
   );
 };
-
 export default SearchBar;

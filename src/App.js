@@ -8,7 +8,6 @@ import Login from "./pages/Login";
 import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import DoctorCard from "./components/DoctorCard";
-import AuthPage from "./pages/AuthPage";
 import "./App.css";
 function App() {
   return (
@@ -41,7 +40,6 @@ function MainContent() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/search" element={<SearchPage />} />
-        <Route path="/auth" element={<AuthPage />} />
         <Route path="/login" element={<Login />} />
       </Routes>
       {/* ✅ Afficher la barre de recherche UNIQUEMENT si on n'est PAS sur `/login` ou `/auth` */}

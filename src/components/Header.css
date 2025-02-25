@@ -1,62 +1,55 @@
-.header {
-    background-color: #007bff;
-    color: white;
+
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: linear-gradient(45deg, #1e90ff, #00bfff); /* Dégradé */
     padding: 15px 30px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
   }
+
+
   
   .logo {
     font-size: 24px;
     font-weight: bold;
   }
   
-  .nav-menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-menu li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .nav-menu li a:hover {
-    text-decoration: underline;
-  }
-  
+ /* Style de la navigation */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(45deg, #1e90ff, #00bfff);
-    padding: 15px 30px;
-    color: white;
-  }
+.nav-menu li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-menu li a:hover {
+  text-decoration: underline;
+  color: #ffd700; /* Ajout d'une couleur au survol */
+}
+
+/* Style du logo */
+.logo-link {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+
   
-  .logo-link {
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .nav-menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-menu li {
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-menu li:hover {
-    color: #ffd700;
-  }
   

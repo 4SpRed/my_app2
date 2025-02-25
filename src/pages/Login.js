@@ -15,12 +15,10 @@ function Login() {
         <label>Mot de passe :</label>
         <input type="password" placeholder="Entrez votre mot de passe" />
 
-        <button className="btn-primary">Se connecter</button>
+        <button className="btn-login">Se connecter</button>
 
         {/* ✅ Bouton S'inscrire */}
-        <button className="btn-secondary" onClick={() => navigate("/auth")}>
-          S'inscrire
-        </button>
+        <button className="btn-signup" onClick={() => navigate("/auth")}> S'inscrire </button>
       </div>
     </div>
   );
