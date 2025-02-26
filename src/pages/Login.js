@@ -31,7 +31,9 @@ function Login() {
 
         // ✅ Stocker le token et rediriger
         localStorage.setItem("token", data.token);
-        navigate("/dashboard");
+        console.log("🔑 Token enregistré :", localStorage.getItem("token"));
+
+        navigate("/account");
       } else {
         setErrorMessage(data.error || "Email ou mot de passe incorrect.");
       }

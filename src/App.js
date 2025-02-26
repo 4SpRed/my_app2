@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { AuthProvider } from "./context/AuthContext"; // ✅ AuthContext ajouté
 import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
 import SearchPage from "./pages/SearchPage";
 import Login from "./pages/Login";
-import Register from "./pages/Register"; // ✅ Importer correctement la page d'inscription
+import Register from "./pages/Register";
 import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import DoctorCard from "./components/DoctorCard";
@@ -13,19 +14,13 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <MainContent />
-    </Router>
+    <AuthProvider> {/* ✅ AuthContext englobe toute l'application */}
+      <Router>
+        <MainContent /> {/* ✅ Gère l'affichage dynamique */}
+      </Router>
+    </AuthProvider>
   );
 }
-
-<Routes>
-    <Route path="/" element={<HomePage />} />
-    <Route path="/search" element={<SearchPage />} />
-    <Route path="/login" element={<Login />} />
-    <Route path="/register" element={<Register />} />
-    <Route path="/account" element={<Account />} /> {/* ✅ Nouvelle route */}
-</Routes>
 
 function MainContent() {
   const location = useLocation();
@@ -51,6 +46,7 @@ function MainContent() {
     <div className="App">
       <Header />
 
+      {/* ✅ Affichage de la barre de recherche seulement sur certaines pages */}
       {!isAuthPage && (
         <div className="search-bar-container">
           <SearchBar
@@ -68,9 +64,11 @@ function MainContent() {
           <Route path="/" element={<HomePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} /> {/* ✅ Route bien ajoutée */}
+          <Route path="/register" element={<Register />} />
+          <Route path="/account" element={<Account />} /> {/* ✅ Route bien ajoutée */}
         </Routes>
 
+        {/* ✅ Affichage des résultats de recherche */}
         {!isAuthPage && (
           <div className="doctor-results">
             {doctors.length > 0 ? (

@@ -19,8 +19,9 @@ export const AuthProvider = ({ children }) => {
 
     const login = (token) => {
         localStorage.setItem("token", token);
-        fetchUser(token);
+        fetchUser(token);  // ✅ Met à jour immédiatement les infos utilisateur
     };
+    
 
     const fetchUser = (token) => {
         fetch("http://localhost:5000/auth/me", {
