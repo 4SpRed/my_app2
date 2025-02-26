@@ -115,33 +115,33 @@ export const loginUser = async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    console.log("➡️ Tentative de connexion pour:", email);
+      console.log("➡️ Tentative de connexion pour:", email);
 
-    const user = await db.collection("users").findOne({ email });
-    if (!user) {
-      return res.status(404).json({ error: "Utilisateur non trouvé" });
-    }
+      const user = await db.collection("users").findOne({ email });
+      if (!user) {
+          return res.status(404).json({ error: "Utilisateur non trouvé" });
+      }
 
-    if (!user.verified) {
-      return res.status(403).json({ error: "Compte non vérifié. Vérifiez votre email." });
-    }
+      if (!user.verified) {
+          return res.status(403).json({ error: "Compte non vérifié. Vérifiez votre email." });
+      }
 
-    const isPasswordValid = await bcrypt.compare(password, user.password);
-    if (!isPasswordValid) {
-      return res.status(401).json({ error: "Mot de passe incorrect" });
-    }
+      const isPasswordValid = await bcrypt.compare(password, user.password);
+      if (!isPasswordValid) {
+          return res.status(401).json({ error: "Mot de passe incorrect" });
+      }
 
-    // ✅ Génération du token JWT
-    const token = jwt.sign(
-      { userId: user._id, email: user.email },
-      process.env.JWT_SECRET || "SECRET_KEY",
-      { expiresIn: "24h" }
-    );
+// ✅ Génération du token JWT avec `userId`
+const token = jwt.sign(
+  { userId: user._id, email: user.email },  // 🔥 Correction : on stocke `userId`
+  process.env.JWT_SECRET || "SECRET_KEY",
+  { expiresIn: "24h" }
+);
 
-    console.log("✅ Connexion réussie pour:", email);
-    res.json({ message: "Connexion réussie !", token });
-  } catch (err) {
-    console.error("❌ Erreur serveur:", err);
-    res.status(500).json({ error: "Erreur serveur" });
-  }
+console.log("✅ Connexion réussie pour:", email);
+res.json({ message: "Connexion réussie !", token, user });
+} catch (err) {
+console.error("❌ Erreur serveur:", err);
+res.status(500).json({ error: "Erreur serveur" });
+}
 };

@@ -2,24 +2,26 @@ import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import AccountInfo from "../components/AccountInfo";
-import './Account.css';
+import "./Account.css";
 
 const Account = () => {
-    const { user } = useContext(AuthContext);
+    const { user, loading } = useContext(AuthContext);
     const navigate = useNavigate();
 
     useEffect(() => {
-        const token = localStorage.getItem("token");
-
-        if (!user && !token) {
-            navigate("/login"); // Redirige immédiatement si aucun utilisateur et aucun token
+        if (!loading && user === null) {
+            console.log("🔄 Redirection vers login car user est null...");
+            navigate("/login");
         }
-    }, [user, navigate]);
+    }, [loading, user, navigate]);
+
+    if (loading) return <p>Chargement en cours...</p>;
+    if (!user) return null; 
 
     return (
-        <div>
+        <div className="account-page">
             <h1>Mon Compte</h1>
-            {user ? <AccountInfo /> : <p className="loading-message">Chargement des informations...</p>}
+            <AccountInfo />
         </div>
     );
 };

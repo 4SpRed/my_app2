@@ -1,40 +1,58 @@
-/* ✅ Styles de la page Mon Compte */
 .account-container {
-    max-width: 600px;
-    margin: 50px auto;
+    width: 60%;
+    margin: auto;
     padding: 20px;
-    background: white;
+    background: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* ✅ Titre */
-.account-container h2 {
-    font-size: 26px;
-    color: #333;
-    margin-bottom: 20px;
+.account-section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* ✅ Informations utilisateur */
-.account-container p {
-    font-size: 18px;
-    color: #555;
-    margin: 10px 0;
+.account-section h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-/* ✅ Style du bouton de déconnexion */
-.logout-button {
-    background: #ff4d4d;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.account-section p {
     font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+    margin: 5px 0;
 }
 
-.logout-button:hover {
-    background: #cc0000;
+.verified-icon {
+    color: green;
+    margin-left: 5px;
+}
+
+.edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1e90ff;
+}
+
+.active-status {
+    color: green;
+    font-weight: bold;
+}
+
+.logout-button {
+    display: block;
+    margin-top: 20px;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }

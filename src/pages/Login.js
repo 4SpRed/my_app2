@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../context/AuthContext"; // ✅ Ajout de l'authentification
 import "./Login.css"; // Assurez-vous que le fichier CSS est bien défini
 
 function Login() {
   const navigate = useNavigate();
+  const { setUser } = useContext(AuthContext); // ✅ Ajout du contexte utilisateur
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
@@ -26,20 +28,20 @@ function Login() {
 
       const data = await response.json();
 
-      if (response.ok) {
-        console.log("✅ Connexion réussie :", data);
-
-        // ✅ Stocker le token et rediriger
-        localStorage.setItem("token", data.token);
-        console.log("🔑 Token enregistré :", localStorage.getItem("token"));
-
-        navigate("/account");
-      } else {
-        setErrorMessage(data.error || "Email ou mot de passe incorrect.");
+      if (!response.ok) {
+        throw new Error(data.error || "Échec de la connexion.");
       }
+
+      console.log("✅ Connexion réussie :", data);
+
+      // ✅ Stockage du token et de l'utilisateur dans AuthContext
+      localStorage.setItem("token", data.token);
+      setUser(data.user); // ✅ Enregistre l'utilisateur dans le contexte
+
+      navigate("/account"); // Redirige vers la page du compte
     } catch (error) {
       console.error("❌ Erreur lors de la connexion :", error);
-      setErrorMessage("Une erreur est survenue. Veuillez réessayer.");
+      setErrorMessage(error.message);
     }
   };
 

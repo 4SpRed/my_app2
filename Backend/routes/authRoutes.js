@@ -22,7 +22,7 @@ connectDB();
 // Middleware d'authentification
 const authMiddleware = (req, res, next) => {
   const token = req.header("Authorization")?.split(" ")[1];
-  if (!token) return res.status(401).json({ error: "Accès refusé" });
+  if (!token) return res.status(401).json({ error: "Token manquant_accès" });
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
@@ -46,8 +46,8 @@ router.get("/verify/:token", verifyUser);
 router.get("/me", authMiddleware, async (req, res) => {
   await connectDB();
   const user = await db.collection("users").findOne(
-    { _id: req.user.id },
-    { projection: { password: 0 } } // Ne pas renvoyer le mot de passe
+      { _id: req.user.userId },  // ✅ Utilisation correcte de `userId`
+      { projection: { password: 0 } } // Ne pas renvoyer le mot de passe
   );
 
   if (!user) return res.status(404).json({ error: "Utilisateur non trouvé" });
