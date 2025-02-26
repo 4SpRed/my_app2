@@ -4,9 +4,11 @@ import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
 import SearchPage from "./pages/SearchPage";
 import Login from "./pages/Login";
+import Register from "./pages/Register"; // ✅ Importer correctement la page d'inscription
 import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import DoctorCard from "./components/DoctorCard";
+import Account from "./pages/Account";
 import "./App.css";
 
 function App() {
@@ -17,8 +19,16 @@ function App() {
   );
 }
 
+<Routes>
+    <Route path="/" element={<HomePage />} />
+    <Route path="/search" element={<SearchPage />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/register" element={<Register />} />
+    <Route path="/account" element={<Account />} /> {/* ✅ Nouvelle route */}
+</Routes>
+
 function MainContent() {
-  const location = useLocation(); // 📌 Vérifie la page actuelle
+  const location = useLocation();
   const [query, setQuery] = useState("");
   const [locationQuery, setLocationQuery] = useState("");
   const [doctors, setDoctors] = useState([]);
@@ -35,14 +45,12 @@ function MainContent() {
     }
   };
 
-  // ✅ Vérifie si la page actuelle est `/login` ou `/auth`
-  const isAuthPage = location.pathname === "/login" || location.pathname === "/auth";
+  const isAuthPage = location.pathname === "/login" || location.pathname === "/register";
 
   return (
     <div className="App">
-      <Header /> {/* ✅ Header TOUJOURS affiché */}
+      <Header />
 
-      {/* ✅ Afficher la barre de recherche UNIQUEMENT si on n'est PAS sur `/login` ou `/auth` */}
       {!isAuthPage && (
         <div className="search-bar-container">
           <SearchBar
@@ -60,9 +68,9 @@ function MainContent() {
           <Route path="/" element={<HomePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} /> {/* ✅ Route bien ajoutée */}
         </Routes>
 
-        {/* ✅ Affichage des résultats de recherche UNIQUEMENT si on n'est PAS sur `/login` */}
         {!isAuthPage && (
           <div className="doctor-results">
             {doctors.length > 0 ? (
@@ -74,7 +82,7 @@ function MainContent() {
         )}
       </main>
 
-      <Footer /> {/* ✅ Footer TOUJOURS affiché */}
+      <Footer />
     </div>
   );
 }

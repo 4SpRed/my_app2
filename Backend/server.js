@@ -2,6 +2,7 @@ import express from "express";
 import { MongoClient, ServerApiVersion } from "mongodb";
 import dotenv from "dotenv";
 import cors from "cors";  // 👈 Ajout pour autoriser le front à communiquer avec le back
+import authRoutes from "./routes/authRoutes.js"; // ✅ Importation du fichier routes
 
 // Initialisation de l'application Express
 const app = express();
@@ -10,6 +11,9 @@ const port = 5000;
 // Middleware pour gérer JSON et CORS
 app.use(express.json());
 app.use(cors());  // 👈 Autorise les requêtes depuis le frontend
+
+// 📌 Utilisation des routes d'authentification
+app.use("/auth", authRoutes);
 
 // Chargement des variables d'environnement
 dotenv.config();
