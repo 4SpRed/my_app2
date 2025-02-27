@@ -1,7 +1,7 @@
 import express from "express";
 import Stripe from "stripe";
 import authMiddleware from "../middlewares/authMiddleware.js";
-
+import { bookAppointment, getUserAppointments, cancelAppointment, updateAppointment } from "../controllers/appointmentController.js";
 
 const appointmentRoutes = (db) => {
     if (!db) {
@@ -12,7 +12,7 @@ const appointmentRoutes = (db) => {
     const router = express.Router();
     const stripeClient = new Stripe(process.env.STRIPE_SECRET_KEY);
 
-    // ✅ Route pour récupérer la liste des médecins (publique)
+    // ✅ Route publique : Liste des médecins
     router.get("/doctors", async (req, res) => {
         try {
             const doctors = await db.collection("medecins").find().toArray();
@@ -22,26 +22,11 @@ const appointmentRoutes = (db) => {
         }
     });
 
-    // 🔒 Route PROTÉGÉE : Réserver un rendez-vous (authentification requise)
-    router.post("/", authMiddleware, async (req, res) => {
-        console.log("📥 Requête reçue:", req.body);
-        const { doctorId, date, time } = req.body;
-
-        if (!doctorId || !date || !time) {
-            return res.status(400).json({ error: "Tous les champs sont requis." });
-        }
-
-        try {
-            const result = await db.collection("appointments").insertOne({
-                userId: req.user.id,  // 🔒 Associer le rendez-vous à l'utilisateur connecté
-                doctorId, date, time
-            });
-            res.json({ message: "✅ Rendez-vous enregistré.", appointmentId: result.insertedId });
-        } catch (error) {
-            console.error("❌ Erreur lors de la réservation :", error);
-            res.status(500).json({ error: "Erreur réservation." });
-        }
-    });
+    // 🔒 Routes protégées par authentification
+    router.post("/", authMiddleware, bookAppointment);
+    router.get("/", authMiddleware, getUserAppointments);
+    router.delete("/:id", authMiddleware, cancelAppointment);
+    router.put("/:id", authMiddleware, updateAppointment);
 
     // 🔒 Route PROTÉGÉE : Ajouter une disponibilité (réservée aux médecins)
     router.post("/availabilities", authMiddleware, async (req, res) => {
@@ -65,7 +50,7 @@ const appointmentRoutes = (db) => {
         }
     });
 
-    // 🔒 Route PROTÉGÉE : Paiement via Stripe (authentification requise)
+    // 🔒 Route PROTÉGÉE : Paiement via Stripe
     router.post("/create-checkout-session", authMiddleware, async (req, res) => {
         try {
             console.log("📥 Données reçues pour le paiement:", req.body);

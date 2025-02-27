@@ -1,16 +1,19 @@
 import express from "express";
-import { MongoClient, ServerApiVersion } from "mongodb";
 import dotenv from "dotenv";
 import cors from "cors";
+import mongoose from "mongoose";
+import { MongoClient, ServerApiVersion } from "mongodb";
 import authRoutes from "./routes/authRoutes.js";
 import appointmentRoutes from "./routes/appointments_routes.js";
+
+
 
 // ✅ Chargement des variables d'environnement
 dotenv.config();
 
 // ✅ Vérification des variables essentielles
 if (!process.env.STRING_URI) {
-    console.error("\u274C STRING_URI manquant dans .env");
+    console.error("❌ STRING_URI manquant dans .env");
     process.exit(1);
 }
 
@@ -22,9 +25,21 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
-app.use("/auth", authRoutes);
 
-// ✅ Connexion à MongoDB
+
+
+// ✅ Connexion MongoDB avec `mongoose`
+mongoose.connect(process.env.STRING_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
+.then(() => console.log("✅ Connexion MongoDB réussie !"))
+.catch((error) => {
+    console.error("❌ Erreur de connexion à MongoDB :", error);
+    process.exit(1);
+});
+
+// ✅ Connexion à MongoDB via `MongoClient` pour certaines fonctionnalités
 const client = new MongoClient(process.env.STRING_URI, {
     serverApi: { version: ServerApiVersion.v1, strict: true, deprecationErrors: true },
 });
@@ -34,7 +49,7 @@ async function connectDB() {
     try {
         await client.connect();
         db = client.db("medecinsDB"); // ⚠️ Vérifie que ce nom de base est correct !
-        console.log("✅ Connexion MongoDB réussie !");
+        console.log("✅ Connexion MongoDB (via MongoClient) réussie !");
     } catch (error) {
         console.error("❌ Erreur de connexion à MongoDB :", error);
         process.exit(1);
@@ -50,6 +65,9 @@ connectDB().then(() => {
         console.error("❌ La base de données n'est pas connectée !");
     }
 });
+
+// ✅ Routes d'authentification
+app.use("/auth", authRoutes);
 
 // ✅ Route principale
 app.get("/", (req, res) => {
