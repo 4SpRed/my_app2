@@ -1,7 +1,12 @@
 import express from "express";
 import Stripe from "stripe";
-import authMiddleware from "../middlewares/authMiddleware.js";
-import { bookAppointment, getUserAppointments, cancelAppointment, updateAppointment } from "../controllers/appointmentController.js";
+import checkAuth from "../middlewares/checkAuth.js";
+import {
+    bookAppointment,
+    getUserAppointments,
+    cancelAppointment,
+    updateAppointment,
+} from "../controllers/appointmentController.js";
 
 const appointmentRoutes = (db) => {
     if (!db) {
@@ -22,36 +27,60 @@ const appointmentRoutes = (db) => {
         }
     });
 
+    // ✅ Route pour récupérer les disponibilités d'un médecin
+    router.get("/available-dates", async (req, res) => {
+        try {
+            const { doctorId } = req.query;
+            if (!doctorId) {
+                return res.status(400).json({ error: "L'ID du médecin est requis." });
+            }
+
+            const appointments = await db.collection("availabilities").find({ doctorId }).toArray();
+            const availableDates = [...new Set(appointments.map(appt => appt.date))]; 
+
+            res.json(availableDates);
+        } catch (error) {
+            console.error("❌ Erreur récupération dates disponibles :", error);
+            res.status(500).json({ error: "Erreur serveur." });
+        }
+    });
+
     // 🔒 Routes protégées par authentification
-    router.post("/", authMiddleware, bookAppointment);
-    router.get("/", authMiddleware, getUserAppointments);
-    router.delete("/:id", authMiddleware, cancelAppointment);
-    router.put("/:id", authMiddleware, updateAppointment);
+    router.post("/", checkAuth, bookAppointment);
+    router.get("/", checkAuth, getUserAppointments);
+    router.delete("/:id", checkAuth, cancelAppointment);
+    router.put("/:id", checkAuth, updateAppointment);
 
     // 🔒 Route PROTÉGÉE : Ajouter une disponibilité (réservée aux médecins)
-    router.post("/availabilities", authMiddleware, async (req, res) => {
-        console.log("📥 Requête reçue pour disponibilités:", req.body);
+    router.post("/availabilities", checkAuth, async (req, res) => {
+        console.log("📥 Requête reçue pour ajout de disponibilités:", req.body);
 
         const { date, time } = req.body;
         if (!date || !time) {
-            return res.status(400).json({ error: "Tous les champs sont requis." });
+            return res.status(400).json({ error: "❌ Tous les champs sont requis." });
         }
 
         try {
-            const doctorId = req.user.id; // Associer la disponibilité au médecin connecté
+            // Vérification que l'utilisateur est un médecin
+            if (req.user.role !== "doctor") {
+                return res.status(403).json({ error: "❌ Accès refusé. Seuls les médecins peuvent ajouter des disponibilités." });
+            }
+
             const result = await db.collection("availabilities").insertOne({
-                doctorId, date, time
+                doctorId: req.user.id, date, time
             });
 
-            res.json({ message: "✅ Disponibilité enregistrée.", availabilityId: result.insertedId });
+            console.log(`✅ Disponibilité enregistrée pour le médecin ID: ${req.user.id} (ID: ${result.insertedId})`);
+            res.json({ message: "✅ Disponibilité enregistrée avec succès.", availabilityId: result.insertedId });
+
         } catch (error) {
             console.error("❌ Erreur lors de l'ajout de disponibilité :", error);
-            res.status(500).json({ error: "Erreur lors de l'ajout de disponibilité." });
+            res.status(500).json({ error: "❌ Erreur serveur lors de l'ajout de disponibilité." });
         }
     });
 
     // 🔒 Route PROTÉGÉE : Paiement via Stripe
-    router.post("/create-checkout-session", authMiddleware, async (req, res) => {
+    router.post("/create-checkout-session", checkAuth, async (req, res) => {
         try {
             console.log("📥 Données reçues pour le paiement:", req.body);
             const { amount } = req.body;

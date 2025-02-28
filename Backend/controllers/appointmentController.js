@@ -1,23 +1,19 @@
 import Appointment from "../models/Appointment.js";
 
-
 // ✅ Fonction pour réserver un rendez-vous avec vérification
 export const bookAppointment = async (req, res) => {
     try {
         const { doctorId, date, time, type } = req.body;
 
-        // Vérification des champs
         if (!doctorId || !date || !time) {
             return res.status(400).json({ error: "Tous les champs sont obligatoires." });
         }
 
-        // Vérifier que la date est future
         const appointmentDate = new Date(`${date}T${time}`);
         if (appointmentDate < new Date()) {
             return res.status(400).json({ error: "Vous ne pouvez pas réserver un rendez-vous dans le passé." });
         }
 
-        // Vérifier si le médecin est disponible à cette heure
         const existingAppointment = await Appointment.findOne({ doctorId, date, time });
         if (existingAppointment) {
             return res.status(400).json({ error: "Ce créneau est déjà réservé." });
@@ -60,7 +56,6 @@ export const cancelAppointment = async (req, res) => {
             return res.status(404).json({ error: "Rendez-vous introuvable." });
         }
 
-        // Vérifier que l'utilisateur est bien le propriétaire du RDV
         if (appointment.userId.toString() !== req.user.id) {
             return res.status(403).json({ error: "Action non autorisée." });
         }
@@ -93,5 +88,48 @@ export const updateAppointment = async (req, res) => {
         res.status(200).json({ message: "Rendez-vous mis à jour avec succès." });
     } catch (error) {
         res.status(500).json({ error: "Erreur lors de la modification du rendez-vous." });
+    }
+};
+
+// ✅ Vérification des disponibilités
+export const checkAvailability = async (req, res) => {
+    const { doctorId, date } = req.query;
+    if (!doctorId || !date) {
+        return res.status(400).json({ message: "Doctor ID et date requis" });
+    }
+
+    try {
+        console.log("🔍 Vérification des disponibilités pour :", doctorId, date);
+
+        // ✅ Vérification du format de la date
+        const parsedDate = new Date(date);
+        if (isNaN(parsedDate.getTime())) {
+            return res.status(400).json({ message: "Format de date invalide. Utilisez YYYY-MM-DD." });
+        }
+
+        // ✅ Définir la journée complète pour MongoDB
+        const startOfDay = new Date(parsedDate.setHours(0, 0, 0, 0));
+        const endOfDay = new Date(parsedDate.setHours(23, 59, 59, 999));
+
+        // ✅ Trouver les rendez-vous existants ce jour-là
+        const appointments = await Appointment.find({
+            doctorId,
+            date: { $gte: startOfDay, $lte: endOfDay }
+        });
+
+        // ✅ Liste des créneaux horaires possibles (ex: de 8h à 20h)
+        const allTimes = [];
+        for (let heure = 8; heure <= 20; heure++) {
+            allTimes.push(`${heure}:00`);
+        }
+
+        const bookedTimes = appointments.map(appt => appt.time);
+        const availableTimes = allTimes.filter(time => !bookedTimes.includes(time));
+
+        console.log("✅ Créneaux disponibles :", availableTimes);
+        res.json(availableTimes);
+    } catch (error) {
+        console.error("❌ Erreur dans checkAvailability :", error);
+        res.status(500).json({ message: "Erreur serveur" });
     }
 };

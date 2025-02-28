@@ -1,22 +1,26 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import { AuthProvider } from "./context/AuthContext"; // ✅ AuthContext ajouté
+import { AuthProvider } from "./context/AuthContext";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import SearchBar from "./components/SearchBar";
+import DoctorCard from "./components/DoctorCard";
 import HomePage from "./pages/HomePage";
 import SearchPage from "./pages/SearchPage";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Footer from "./components/Footer";
-import SearchBar from "./components/SearchBar";
-import DoctorCard from "./components/DoctorCard";
 import Account from "./pages/Account";
+import AppointmentForm from "./pages/AppointmentForm";
+import DoctorDashboard from "./pages/DoctorDashboard";
+import DoctorAppointments from "./pages/DoctorAppointments";
+import DoctorCalendar from "./pages/DoctorCalendar";
 import "./App.css";
 
 function App() {
   return (
-    <AuthProvider> {/* ✅ AuthContext englobe toute l'application */}
+    <AuthProvider>
       <Router>
-        <MainContent /> {/* ✅ Gère l'affichage dynamique */}
+        <MainContent />
       </Router>
     </AuthProvider>
   );
@@ -45,8 +49,6 @@ function MainContent() {
   return (
     <div className="App">
       <Header />
-
-      {/* ✅ Affichage de la barre de recherche seulement sur certaines pages */}
       {!isAuthPage && (
         <div className="search-bar-container">
           <SearchBar
@@ -58,17 +60,18 @@ function MainContent() {
           />
         </div>
       )}
-
       <main className="main-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/account" element={<Account />} /> {/* ✅ Route bien ajoutée */}
+          <Route path="/account" element={<Account />} />
+          <Route path="/appointment-form" element={<AppointmentForm />} />
+          <Route path="/doctor-dashboard" element={<DoctorDashboard />} />
+          <Route path="/doctor-appointments" element={<DoctorAppointments />} />
+          <Route path="/doctor-calendar" element={<DoctorCalendar />} />
         </Routes>
-
-        {/* ✅ Affichage des résultats de recherche */}
         {!isAuthPage && (
           <div className="doctor-results">
             {doctors.length > 0 ? (
@@ -79,7 +82,6 @@ function MainContent() {
           </div>
         )}
       </main>
-
       <Footer />
     </div>
   );
